@@ -1,5 +1,5 @@
 # uml2jpa
-An extensible  MDA Java  class generator  using UML class diagram  and Epsilon
+An extensible  MDA Java  class generator using UML class diagram  and Epsilon
 
 Authors : Francois Moreews  and  Kevin Courtet - 2018
 
