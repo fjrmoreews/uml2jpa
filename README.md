@@ -21,9 +21,6 @@ cd uml2jpa
 bash ./runUML2JPA.sh 
 # or
 ant test
-
-
-
-     
- 
+ls example/gen/
+cp -r example/gen src/
 ```
