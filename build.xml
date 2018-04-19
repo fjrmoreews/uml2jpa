@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="xmi">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../eclipse/eclipse-neon/"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+              	
+     	
+    <property name="dir.buildfile" value="."/>
+              	
+    <property name="dir.workspace" value="${dir.buildfile}/.."/>
+              	
+     <property name="dir.jarfile" value="${dir.buildfile}"/>              	
+     <property name="myjar" value="generator.uml.jpa.jar"/>       	
+              	
+              	
+  
+    <path id="xmi.classpath">
+        <pathelement location="bin"/>
+      
+        <pathelement location="lib/dom4j-1.4.jar"/>
+        <pathelement location="lib/jaxen-core.jar"/>
+        <pathelement location="lib/jaxen-jdom.jar"/>
+        <pathelement location="lib/jdom.jar"/>
+        <pathelement location="lib/junit-3.8.1.jar"/>
+        <pathelement location="lib/log4j-1.2.8.jar"/>
+        <pathelement location="lib/test-framework.jar"/>
+        <pathelement location="lib/org.eclipse.emf.common-2.12.0.jar"/>
+        <pathelement location="lib/org.eclipse.uml2.uml-5.0.1.v20140910-1354.jar"/>
+        <pathelement location="lib/org.eclipse.emf.ecore.xmi-2.12.0.jar"/>
+        <pathelement location="lib/types-2.0.0-v20140602-0749.jar"/>
+        <pathelement location="lib/org.eclipse.uml2.common-2.0.1.v20140910-1354.jar"/>
+        <pathelement location="lib/exporter-2.3.0-v200706262000.jar"/>
+        <pathelement location="lib/converter-2.3.0-v200706262000.jar"/>
+        <pathelement location="lib/org.eclipse.emf.codegen.ecore-2.12.0.jar"/>
+        <pathelement location="lib/org.eclipse.emf.ecore-2.12.0.jar"/>
+        <pathelement location="lib/resources-4.1.0-v20130902-0826.jar"/>
+        <pathelement location="lib/epsilon-emf-1.4.0.jar"/>
+        <pathelement location="lib/epsilon-core-1.4.0.jar"/>
+        <pathelement location="lib/l2-1.1.0-v20140202-2055.jar"/>
+        <pathelement location="lib/l3-1.1.0-v20140202-2055.jar"/>
+        <pathelement location="lib/ecore2xml-2.3.0-v200706262000.jar"/>
+        <pathelement location="lib/epsilon-uml-1.4.0.jar"/>
+        <pathelement location="lib/args4j-2.33.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project, create_run_jar" name="build"/>
+    <target name="build-subprojects"/>
+    
+    <target depends="init" name="build-project">
+        <echo message="build-project: ${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="xmi.classpath"/>
+        </javac>
+    </target>
+    
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+   
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+ 
+   
+              	
+              
+  <target name="create_run_jar">
+  <echo >
+  going to create ${dir.jarfile}/${myjar}
+  </echo>
+                    <jar destfile="${dir.jarfile}/${myjar}" filesetmanifest="mergewithoutmain">
+                        <manifest>
+                            <attribute name="Main-Class" value="generator.GenerateJPAapp"/>
+                            <attribute name="Class-Path" value="."/>
+                        </manifest>
+                        <fileset dir="${dir.jarfile}/bin"/>
+                        
+                    </jar>
+                </target>
+                
+   <target name="generate">
+	<exec executable="/bin/bash">
+	<arg value="${dir.buildfile}/runUML2JPA.sh"/>
+
+	</exec>
+</target>             
+ 
+ 
+ <target depends="build,generate" name="test">
+	 
+</target>   
+               
+                
+</project>

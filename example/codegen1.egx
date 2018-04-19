@@ -1,0 +1,8 @@
+rule Class2JavaFile
+
+  transform aClass : Class {
+      template: "codegen1.egl"
+      target : "gen/" + aClass.name.firstToUpperCase() + ".java"
+     
+  
+  } 

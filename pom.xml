@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>xmi.test</groupId>
+	<artifactId>xmi1</artifactId>
+	<version>1.0</version>
+	
+	<!--
+	
+	not working , see
+	https://stackoverflow.com/questions/38295646/dependency-resolution-for-org-eclipse-uml2types
+	
+	-->
+ <dependencies>
+ 
+ 
+ <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>1.1.0.Final</version>
+ </dependency>
+        
+        
+<!-- https://mvnrepository.com/artifact/org.eclipse.emf/org.eclipse.emf.ecore -->
+<dependency>
+    <groupId>org.eclipse.emf</groupId>
+    <artifactId>org.eclipse.emf.ecore</artifactId>
+    <version>2.12.0</version>
+</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.eclipse.emf/org.eclipse.emf.ecore.xmi -->
+<dependency>
+    <groupId>org.eclipse.emf</groupId>
+    <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
+    <version>2.12.0</version>
+</dependency>
+	<!-- https://mvnrepository.com/artifact/org.eclipse.uml2/types -->
+<dependency>
+    <groupId>org.eclipse.uml2</groupId>
+    <artifactId>types</artifactId>
+    <version>2.0.0-v20140602-0749</version>
+</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.eclipse.uml2/org.eclipse.uml2.common -->
+<dependency>
+    <groupId>org.eclipse.uml2</groupId>
+    <artifactId>org.eclipse.uml2.common</artifactId>
+    <version>2.0.1.v20140910-1354</version>
+</dependency>
+	
+<!-- https://mvnrepository.com/artifact/org.eclipse.emf/exporter -->
+<dependency>
+    <groupId>org.eclipse.emf</groupId>
+    <artifactId>exporter</artifactId>
+    <version>2.3.0-v200706262000</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.emf/converter -->
+<dependency>
+    <groupId>org.eclipse.emf</groupId>
+    <artifactId>converter</artifactId>
+    <version>2.3.0-v200706262000</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.emf/org.eclipse.emf.codegen.ecore -->
+<dependency>
+    <groupId>org.eclipse.emf</groupId>
+    <artifactId>org.eclipse.emf.codegen.ecore</artifactId>
+    <version>2.12.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.uml2.uml.profile/l3 -->
+<dependency>
+    <groupId>org.eclipse.uml2.uml.profile</groupId>
+    <artifactId>l3</artifactId>
+    <version>1.1.0-v20140202-2055</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.emf.mapping/ecore2xml -->
+<dependency>
+    <groupId>org.eclipse.emf.mapping</groupId>
+    <artifactId>ecore2xml</artifactId>
+    <version>2.3.0-v200706262000</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.uml2.uml/resources -->
+<dependency>
+    <groupId>org.eclipse.uml2.uml</groupId>
+    <artifactId>resources</artifactId>
+    <version>4.1.0-v20130902-0826</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.uml2.uml.profile/l2 -->
+<dependency>
+    <groupId>org.eclipse.uml2.uml.profile</groupId>
+    <artifactId>l2</artifactId>
+    <version>1.1.0-v20140202-2055</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.epsilon/epsilon-core -->
+<dependency>
+    <groupId>org.eclipse.epsilon</groupId>
+    <artifactId>epsilon-core</artifactId>
+    <version>1.4.0</version>
+</dependency>
+
+
+	<!-- https://mvnrepository.com/artifact/org.eclipse.epsilon/epsilon-emf -->
+<dependency>
+    <groupId>org.eclipse.epsilon</groupId>
+    <artifactId>epsilon-emf</artifactId>
+    <version>1.4.0</version>
+</dependency>
+	
+	
+	<!-- https://mvnrepository.com/artifact/org.eclipse.emf/org.eclipse.emf.common -->
+<dependency>
+    <groupId>org.eclipse.emf</groupId>
+    <artifactId>org.eclipse.emf.common</artifactId>
+    <version>2.12.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.uml2/org.eclipse.uml2.uml -->
+<dependency>
+    <groupId>org.eclipse.uml2</groupId>
+    <artifactId>org.eclipse.uml2.uml</artifactId>
+    <version>5.0.1.v20140910-1354</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.epsilon/epsilon-uml -->
+<dependency>
+    <groupId>org.eclipse.epsilon</groupId>
+    <artifactId>epsilon-uml</artifactId>
+    <version>1.4.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/args4j/args4j -->
+<dependency>
+    <groupId>args4j</groupId>
+    <artifactId>args4j</artifactId>
+    <version>2.33</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+<dependency>
+    <groupId>javax.validation</groupId>
+    <artifactId>validation-api</artifactId>
+    <version>1.0.0.GA</version>
+</dependency>
+
+
+
+		</dependencies>
+	
+</project>

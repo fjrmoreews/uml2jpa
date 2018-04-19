@@ -1,0 +1,143 @@
+
+package gen;
+import javax.validation.constraints.*;
+ 
+[%var allAttributes = aClass.attributes;%]
+[%
+    var parentSet =aClass.generalization.general.name; 
+	var extendsClass="";
+ 
+	if(not parentSet.isEmpty()){  
+	   extendsClass+="extends ";
+	   extendsClass+=parentSet.get(0).firstToUpperCase();
+
+	} %]
+	
+ 
+ 
+ 
+ [% var allOperations = aClass.operations; %]
+ 
+ 
+public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
+ //declarations
+[% for (feature in aClass.features) { %]
+
+  [%=feature.declare()%]
+ 
+[% } %]
+//getter
+[% for (feature in aClass.features) { %]
+ 
+  [%=feature.getter()%]
+ 
+[% } %]
+//setter
+[% for (feature in aClass.features) { %]
+  
+   [%=feature.setter()%]
+[% } %]
+}
+
+
+[%for (a in Association.allInstances){%]
+//AssociationImpl.getOwnedEnds:[%=a.getOwnedEnds()%]
+//AssociationImpl.getMemberEnds:[%=a.getMemberEnds()%]
+//AssociationImpl.getNavigableOwnedEnds[%=a.getNavigableOwnedEnds()%]
+[%}%]
+[%for(anOperation in allOperations) { %]
+//     [%=anOperation.visibility%]  [%=anOperation.type.name%]  [%=anOperation.name%]() {
+[%}%]
+
+   [%
+  @template
+  operation Feature myType() { 
+    var attType="Object";
+     var typeParentSet ="";
+    if (self.type.class.getSimpleName() == "PrimitiveTypeImpl"){
+    
+      if (self.type.eProxyURI == null){
+         attType=self.type.name;
+      }else{
+          attType=self.type.eProxyURI.fragment();
+      }  
+     
+      
+      }
+    if (self.type.class.getSimpleName() == "ClassImpl"){ 
+      attType=self.type.name.firstToUpperCase();
+      //typeParentSet =self.type.class.generalization.general.name;
+    }    
+	%] [%=attType%][% }
+%]
+
+
+[%
+  @template
+  operation Feature getter() { 
+    
+  %]
+    /**
+     * Gets the value of [%=self.name%]
+     
+     class:[%=self.type.class%]
+      classS:[%=self.type.class.getSimpleName()%]
+      typeToString:[%=self.type%]
+      typeName:[%=self.type.name%]
+      
+      [% if (self.type.class.getSimpleName() == "PrimitiveTypeImpl"){%]
+        eProxyURI:[%=self.type.eProxyURI%]
+        
+        [% 
+         if (self.type.eProxyURI == null){
+           %]eProxyURI:null[%  
+      		}else{
+           %]
+          nofragment:[%=self.type.eProxyURI.trimFragment()%]
+          fragment:[%=self.type.eProxyURI.fragment()%]
+           [%
+      		}  
+        %]
+        
+        
+
+      
+      [%
+      } %]
+      
+     */
+     public [%=self.myType()%] get[%=self.name.firstToUpperCase()%]() {
+        return this.[%=self.name.firstToLowerCase()%];
+     }
+  [% } %]
+  
+  
+   [%
+  @template
+  operation Feature setter() { %]
+    /**
+     * Sets the value of [%=self.name%]
+     */
+     public void set[%=self.name.firstToUpperCase()%]([%=self.myType()%] [%=self.name%]) {
+        this.[%=self.name%] = [%=self.name%];
+     }
+   [% }
+%]
+
+ 
+    [%
+    @template
+  operation Feature declare() { %]
+    /**
+     * declaration [%=self.name%]
+     */ 
+   [%for(prop in self.getRedefinedProperties()){%]
+			@[%=prop.name%] 
+   [%}%]  
+     [%=self.visibility%]  [%=self.myType()%] [%=self.name%];
+   [% }
+%]
+
+
+
+ 
