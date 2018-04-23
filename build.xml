@@ -107,7 +107,8 @@
                 
    <target name="generate">
 	<exec executable="/bin/bash">
-	<arg value="${dir.buildfile}/runUML2JPA.sh"/>
+
+	<arg value="${dir.buildfile}/generate_test1.sh"/>
 
 	</exec>
 </target>             

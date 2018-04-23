@@ -22,11 +22,13 @@ A proof of concept of a simple and flexible model driven custom JPA Class genera
 ```
 cd uml2jpa
 #input model is example/model1.uml (XMI format genarated from modelio /UML 3 export  )
-bash ./runUML2JPA.sh 
+
+
+bash ./generate_test1.sh 
 # or
 ant test
-ls example/gen/
-cp -r example/gen src/
+ls example/test1/gen/
+cp -r example/test1/gen src/
 ```
 
 
