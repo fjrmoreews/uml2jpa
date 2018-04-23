@@ -13,7 +13,7 @@ A proof of concept of a simple and flexible model driven custom JPA Class genera
 
 * tested with Modelio  /UML 3 export 
 
-# installation:C
+# installation:
 ## dependencies:
   * need Java, minimum version 8 
   * better on Linux systems (optional bash scripts)
