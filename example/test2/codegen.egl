@@ -106,7 +106,7 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
       } %]
       
      */
-     public [%=self.myType()%] get[%=self.name.firstToUpperCase()%]() {
+     public [%=self.correctPrimType()%] get[%=self.name.firstToUpperCase()%]() {
         return this.[%=self.name.firstToLowerCase()%];
      }
   [% } %]
@@ -118,7 +118,7 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
     /**
      * Sets the value of [%=self.name%]
      */
-     public void set[%=self.name.firstToUpperCase()%]([%=self.myType()%] [%=self.name%]) {
+     public void set[%=self.name.firstToUpperCase()%]([%=self.correctPrimType()%] [%=self.name%]) {
         this.[%=self.name%] = [%=self.name%];
      }
    [% }
@@ -134,10 +134,27 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
    [%for(prop in self.getRedefinedProperties()){%]
 			@[%=prop.name%] 
    [%}%]  
-     [%=self.visibility%]  [%=self.myType()%] [%=self.name%];
+ 
+   [%=self.visibility%] [%=self.correctPrimType()%] [%=self.name.firstToLowerCase()%];
+ 
    [% }
 %]
 
-
-
+	[%
+	@template
+	operation Feature correctPrimType() { 
+	var type=""; 
+  	 if (self.type.name.equals("String")){
+  	 	type=self.myType().firstToUpperCase();
+  	 }
+  	 if (self.type.name.equals("Integer")){
+  		type=self.myType().substring(0,4).toLowerCase();
+ 	 }
+ 	 if (self.type.name.startsWith("E")) {
+  		type=self.myType().replace("E","").toLowerCase();
+   	} 
+   	%] [%=type%] 
+ 	
+ 	[%}%]
+ 	
  
