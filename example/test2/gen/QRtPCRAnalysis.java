@@ -6,10 +6,250 @@ import javax.validation.constraints.*;
  
  
  
-public class  UPLCAnalysis extends ChromatographyAnalysis  {
+public class  QRtPCRAnalysis extends PCRAnalysis  {
  //declarations
+
+      /**
+       * declaration RTParam
+       */ 
+    
+   
+     private   String 
+              	 rTParam;
+   
+ 
+
+      /**
+       * declaration TechnoType
+       */ 
+    
+   
+     private   String 
+              	 technoType;
+   
+ 
+
+      /**
+       * declaration PrimersGenes
+       */ 
+    
+   
+     private   String 
+              	 primersGenes;
+   
+ 
+
+      /**
+       * declaration PrimerEfficiency
+       */ 
+    
+   
+     private   float 
+              	 primerEfficiency;
+   
+ 
+
+      /**
+       * declaration QtcDNA
+       */ 
+    
+   
+     private   String 
+              	 qtcDNA;
+   
+ 
+
+      /**
+       * declaration PlatePlan
+       */ 
+    
+   
+     private   String 
+              	 platePlan;
+   
+ 
 //getter
+ 
+      /**
+       * Gets the value of RTParam
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getRTParam() {
+          return this.rTParam;
+       }
+ 
+ 
+      /**
+       * Gets the value of TechnoType
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getTechnoType() {
+          return this.technoType;
+       }
+ 
+ 
+      /**
+       * Gets the value of PrimersGenes
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getPrimersGenes() {
+          return this.primersGenes;
+       }
+ 
+ 
+      /**
+       * Gets the value of PrimerEfficiency
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3a3aff25 (name: EFloat, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:EFloat
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   float 
+               	 getPrimerEfficiency() {
+          return this.primerEfficiency;
+       }
+ 
+ 
+      /**
+       * Gets the value of QtcDNA
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getQtcDNA() {
+          return this.qtcDNA;
+       }
+ 
+ 
+      /**
+       * Gets the value of PlatePlan
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getPlatePlan() {
+          return this.platePlan;
+       }
+ 
 //setter
+  
+       /**
+        * Sets the value of RTParam
+        */
+        public void setRTParam(  String 
+                                	 rTParam) {
+           this.rTParam = rTParam;
+        }
+  
+       /**
+        * Sets the value of TechnoType
+        */
+        public void setTechnoType(  String 
+                                   	 technoType) {
+           this.technoType = technoType;
+        }
+  
+       /**
+        * Sets the value of PrimersGenes
+        */
+        public void setPrimersGenes(  String 
+                                     	 primersGenes) {
+           this.primersGenes = primersGenes;
+        }
+  
+       /**
+        * Sets the value of PrimerEfficiency
+        */
+        public void setPrimerEfficiency(  float 
+                                         	 primerEfficiency) {
+           this.primerEfficiency = primerEfficiency;
+        }
+  
+       /**
+        * Sets the value of QtcDNA
+        */
+        public void setQtcDNA(  String 
+                               	 qtcDNA) {
+           this.qtcDNA = qtcDNA;
+        }
+  
+       /**
+        * Sets the value of PlatePlan
+        */
+        public void setPlatePlan(  String 
+                                  	 platePlan) {
+           this.platePlan = platePlan;
+        }
 }
 
 

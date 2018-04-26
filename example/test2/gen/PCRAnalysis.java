@@ -6,7 +6,7 @@ import javax.validation.constraints.*;
  
  
  
-public class  UPLCAnalysis extends ChromatographyAnalysis  {
+public class  PCRAnalysis extends GeneralAnalysis  {
  //declarations
 //getter
 //setter

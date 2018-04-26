@@ -6,10 +6,250 @@ import javax.validation.constraints.*;
  
  
  
-public class  UPLCAnalysis extends ChromatographyAnalysis  {
+public class  DDgelElectrophoresisAnalysis extends GelElectrophoresisAnalysis  {
  //declarations
+
+      /**
+       * declaration StripNum
+       */ 
+    
+   
+     private   String 
+              	 stripNum;
+   
+ 
+
+      /**
+       * declaration GelIdent
+       */ 
+    
+   
+     private   String 
+              	 gelIdent;
+   
+ 
+
+      /**
+       * declaration ScanIdent
+       */ 
+    
+   
+     private   String 
+              	 scanIdent;
+   
+ 
+
+      /**
+       * declaration Coloration
+       */ 
+    
+   
+     private   String 
+              	 coloration;
+   
+ 
+
+      /**
+       * declaration ResolutionLevel
+       */ 
+    
+   
+     private   String 
+              	 resolutionLevel;
+   
+ 
+
+      /**
+       * declaration SoftwareAnalysis
+       */ 
+    
+   
+     private   String 
+              	 softwareAnalysis;
+   
+ 
 //getter
+ 
+      /**
+       * Gets the value of StripNum
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getStripNum() {
+          return this.stripNum;
+       }
+ 
+ 
+      /**
+       * Gets the value of GelIdent
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getGelIdent() {
+          return this.gelIdent;
+       }
+ 
+ 
+      /**
+       * Gets the value of ScanIdent
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getScanIdent() {
+          return this.scanIdent;
+       }
+ 
+ 
+      /**
+       * Gets the value of Coloration
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getColoration() {
+          return this.coloration;
+       }
+ 
+ 
+      /**
+       * Gets the value of ResolutionLevel
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getResolutionLevel() {
+          return this.resolutionLevel;
+       }
+ 
+ 
+      /**
+       * Gets the value of SoftwareAnalysis
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@58113be3 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getSoftwareAnalysis() {
+          return this.softwareAnalysis;
+       }
+ 
 //setter
+  
+       /**
+        * Sets the value of StripNum
+        */
+        public void setStripNum(  String 
+                                 	 stripNum) {
+           this.stripNum = stripNum;
+        }
+  
+       /**
+        * Sets the value of GelIdent
+        */
+        public void setGelIdent(  String 
+                                 	 gelIdent) {
+           this.gelIdent = gelIdent;
+        }
+  
+       /**
+        * Sets the value of ScanIdent
+        */
+        public void setScanIdent(  String 
+                                  	 scanIdent) {
+           this.scanIdent = scanIdent;
+        }
+  
+       /**
+        * Sets the value of Coloration
+        */
+        public void setColoration(  String 
+                                   	 coloration) {
+           this.coloration = coloration;
+        }
+  
+       /**
+        * Sets the value of ResolutionLevel
+        */
+        public void setResolutionLevel(  String 
+                                        	 resolutionLevel) {
+           this.resolutionLevel = resolutionLevel;
+        }
+  
+       /**
+        * Sets the value of SoftwareAnalysis
+        */
+        public void setSoftwareAnalysis(  String 
+                                         	 softwareAnalysis) {
+           this.softwareAnalysis = softwareAnalysis;
+        }
 }
 
 
