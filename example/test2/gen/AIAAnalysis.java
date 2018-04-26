@@ -8,10 +8,130 @@ import javax.validation.constraints.*;
  
  
  
-public class  ImagingAnalysis extends GeneralAnalysis  {
+public class  AIAAnalysis extends FluorescenceAnalysis  {
  //declarations
+
+      /**
+       * declaration CalibPrecGammeBlanc
+       */ 
+    
+   
+     private   String 
+              	 calibPrecGammeBlanc;
+   
+ 
+
+      /**
+       * declaration SampleVol
+       */ 
+    
+   
+     private   float 
+              	 sampleVol;
+   
+ 
+
+      /**
+       * declaration SampleDilution
+       */ 
+    
+   
+     private   float 
+              	 sampleDilution;
+   
+ 
 //getter
+ 
+      /**
+       * Gets the value of CalibPrecGammeBlanc
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@31129b58 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getCalibPrecGammeBlanc() {
+          return this.calibPrecGammeBlanc;
+       }
+ 
+ 
+      /**
+       * Gets the value of SampleVol
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@77ddb912 (name: EFloat, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:EFloat
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   float 
+               	 getSampleVol() {
+          return this.sampleVol;
+       }
+ 
+ 
+      /**
+       * Gets the value of SampleDilution
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@77ddb912 (name: EFloat, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:EFloat
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   float 
+               	 getSampleDilution() {
+          return this.sampleDilution;
+       }
+ 
 //setter
+  
+       /**
+        * Sets the value of CalibPrecGammeBlanc
+        */
+        public void setCalibPrecGammeBlanc(  String 
+                                            	 CalibPrecGammeBlanc) {
+           this.CalibPrecGammeBlanc = CalibPrecGammeBlanc;
+        }
+  
+       /**
+        * Sets the value of SampleVol
+        */
+        public void setSampleVol(  float 
+                                  	 SampleVol) {
+           this.SampleVol = SampleVol;
+        }
+  
+       /**
+        * Sets the value of SampleDilution
+        */
+        public void setSampleDilution(  float 
+                                       	 SampleDilution) {
+           this.SampleDilution = SampleDilution;
+        }
 }
 
 
