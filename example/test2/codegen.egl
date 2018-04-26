@@ -1,5 +1,3 @@
-
-package gen;
 import javax.validation.constraints.*;
  
 [%var allAttributes = aClass.attributes;%]
@@ -118,8 +116,8 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
     /**
      * Sets the value of [%=self.name%]
      */
-     public void set[%=self.name.firstToUpperCase()%]([%=self.correctPrimType()%] [%=self.name%]) {
-        this.[%=self.name%] = [%=self.name%];
+     public void set[%=self.name.firstToUpperCase()%]([%=self.correctPrimType()%] [%=self.name.firstToLowerCase()%]) {
+        this.[%=self.name.firstToLowerCase()%] = [%=self.name.firstToLowerCase()%];
      }
    [% }
 %]
