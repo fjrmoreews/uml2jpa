@@ -6,10 +6,170 @@ import javax.validation.constraints.*;
  
  
  
-public class  NGSAnalysis extends SequencingAnalysis  {
+public class  SpectrophotometryAnalysis extends GeneralAnalysis  {
  //declarations
+
+      /**
+       * declaration AcNuclType
+       */ 
+    
+   
+     private   String 
+              	 acNuclType;
+   
+ 
+
+      /**
+       * declaration ExtracType
+       */ 
+    
+   
+     private   String 
+              	 extracType;
+   
+ 
+
+      /**
+       * declaration ExtracKitRef
+       */ 
+    
+   
+     private   String 
+              	 extracKitRef;
+   
+ 
+
+      /**
+       * declaration SampleVol
+       */ 
+    
+   
+     private   float 
+              	 sampleVol;
+   
+ 
 //getter
+ 
+      /**
+       * Gets the value of AcNuclType
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6eac4ff4 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getAcNuclType() {
+          return this.acNuclType;
+       }
+ 
+ 
+      /**
+       * Gets the value of ExtracType
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6eac4ff4 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getExtracType() {
+          return this.extracType;
+       }
+ 
+ 
+      /**
+       * Gets the value of ExtracKitRef
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6eac4ff4 (name: String, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:String
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   String 
+               	 getExtracKitRef() {
+          return this.extracKitRef;
+       }
+ 
+ 
+      /**
+       * Gets the value of SampleVol
+       
+       class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+        classS:PrimitiveTypeImpl
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@35b3d0b5 (name: EFloat, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false)
+        typeName:EFloat
+        
+          eProxyURI:
+          
+  eProxyURI:null        
+          
+  
+        
+        
+       */
+       public   float 
+               	 getSampleVol() {
+          return this.sampleVol;
+       }
+ 
 //setter
+  
+       /**
+        * Sets the value of AcNuclType
+        */
+        public void setAcNuclType(  String 
+                                   	 acNuclType) {
+           this.acNuclType = acNuclType;
+        }
+  
+       /**
+        * Sets the value of ExtracType
+        */
+        public void setExtracType(  String 
+                                   	 extracType) {
+           this.extracType = extracType;
+        }
+  
+       /**
+        * Sets the value of ExtracKitRef
+        */
+        public void setExtracKitRef(  String 
+                                     	 extracKitRef) {
+           this.extracKitRef = extracKitRef;
+        }
+  
+       /**
+        * Sets the value of SampleVol
+        */
+        public void setSampleVol(  float 
+                                  	 sampleVol) {
+           this.sampleVol = sampleVol;
+        }
 }
 
 
