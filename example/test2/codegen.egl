@@ -1,5 +1,6 @@
 import javax.validation.constraints.*;
- 
+import java.util.Date;
+
 [%var allAttributes = aClass.attributes;%]
 [%
     var parentSet =aClass.generalization.general.name; 
@@ -134,7 +135,6 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
    [%}%]  
  
    [%=self.visibility%] [%=self.correctPrimType()%] [%=self.name.firstToLowerCase()%];
- 
    [% }
 %]
 
@@ -142,13 +142,18 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
 	@template
 	operation Feature correctPrimType() { 
 	var type=""; 
+	var date="";
   	 if (self.type.name.equals("String")){
   	 	type=self.myType().firstToUpperCase();
+  	 }
+  	 if (self.type.name.equals("EDate")){
+  	 	date=self.myType().substring(2,6).toLowerCase();
+  	 	type=date.firstToUpperCase();
   	 }
   	 if (self.type.name.equals("Integer")){
   		type=self.myType().substring(0,4).toLowerCase();
  	 }
- 	 if (self.type.name.startsWith("E")) {
+ 	 if (self.type.name.startsWith("E") and not self.type.name.equals("EDate")) {
   		type=self.myType().replace("E","").toLowerCase();
    	} 
    	%] [%=type%] 
