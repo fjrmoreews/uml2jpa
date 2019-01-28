@@ -45,7 +45,7 @@ public class  Animal   {
        
        class:class org.eclipse.uml2.uml.internal.impl.ClassImpl
         classS:ClassImpl
-        typeToString:org.eclipse.uml2.uml.internal.impl.ClassImpl@479460a6 (name: basicAnalysis, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false) (isActive: false)
+        typeToString:org.eclipse.uml2.uml.internal.impl.ClassImpl@bcec031 (name: basicAnalysis, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false) (isActive: false)
         typeName:basicAnalysis
         
         
@@ -60,7 +60,7 @@ public class  Animal   {
        
        class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
         classS:PrimitiveTypeImpl
-        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@7a67e3c6 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@649725e3 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
         typeName:
         
           eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer
@@ -83,7 +83,7 @@ public class  Animal   {
        
        class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
         classS:PrimitiveTypeImpl
-        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@15713d56 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@4c168660 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
         typeName:
         
           eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -106,7 +106,7 @@ public class  Animal   {
        
        class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
         classS:PrimitiveTypeImpl
-        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@26ceffa8 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+        typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@fd0e5b6 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
         typeName:
         
           eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -155,7 +155,7 @@ public class  Animal   {
 }
 
 
-//AssociationImpl.getOwnedEnds:[org.eclipse.uml2.uml.internal.impl.PropertyImpl@5c2375a9 (name: <unset>, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: none, isDerived: false, isDerivedUnion: false, isID: false)]
-//AssociationImpl.getMemberEnds:[org.eclipse.uml2.uml.internal.impl.PropertyImpl@67d18ed7 (name: basicAnalysis, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: composite, isDerived: false, isDerivedUnion: false, isID: false), org.eclipse.uml2.uml.internal.impl.PropertyImpl@5c2375a9 (name: <unset>, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: none, isDerived: false, isDerivedUnion: false, isID: false)]
+//AssociationImpl.getOwnedEnds:[org.eclipse.uml2.uml.internal.impl.PropertyImpl@6326d182 (name: <unset>, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: none, isDerived: false, isDerivedUnion: false, isID: false)]
+//AssociationImpl.getMemberEnds:[org.eclipse.uml2.uml.internal.impl.PropertyImpl@7fcbe147 (name: basicAnalysis, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: composite, isDerived: false, isDerivedUnion: false, isID: false), org.eclipse.uml2.uml.internal.impl.PropertyImpl@6326d182 (name: <unset>, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: none, isDerived: false, isDerivedUnion: false, isID: false)]
 //AssociationImpl.getNavigableOwnedEnds[]
 

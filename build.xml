@@ -3,23 +3,22 @@
               Any modifications will be overwritten.
               To include a user specific buildfile here, simply create one in the same
               directory with the processing instruction <?eclipse.ant.import?>
-              as the first entry and export the buildfile again. --><project basedir="." default="build" name="xmi">
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="all" name="xmi">
+	<!-- property are variable -->
     <property environment="env"/>
     <property name="ECLIPSE_HOME" value="../../../eclipse/eclipse-neon/"/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="1.8"/>
     <property name="source" value="1.8"/>
-              	
-     	
+              	 	
     <property name="dir.buildfile" value="."/>
+
+    <property name="mygentest1jar" value="example/test1/model.gen.test1.jar"/>               	
               	
-    <property name="dir.workspace" value="${dir.buildfile}/.."/>
-              	
-     <property name="dir.jarfile" value="${dir.buildfile}"/>              	
-     <property name="myjar" value="generator.uml.jpa.jar"/>       	
-              	
-              	
-  
+    <!-- path location point library are use by a target, 
+    	 the path id is the id use in target to know which library are used by the target
+    	 optimisation possible par include lib/*.jar-->
     <path id="xmi.classpath">
         <pathelement location="bin"/>
       
@@ -48,32 +47,12 @@
         <pathelement location="lib/epsilon-uml-1.4.0.jar"/>
         <pathelement location="lib/args4j-2.33.jar"/>
     </path>
-    <target name="init">
-        <mkdir dir="bin"/>
-        <copy includeemptydirs="false" todir="bin">
-            <fileset dir="src">
-                <exclude name="**/*.launch"/>
-                <exclude name="**/*.java"/>
-            </fileset>
-        </copy>
-    </target>
-    <target name="clean">
-        <delete dir="bin"/>
-    </target>
-    <target depends="clean" name="cleanall"/>
-    <target depends="build-subprojects,build-project, create_run_jar" name="build"/>
-    <target name="build-subprojects"/>
-    
-    <target depends="init" name="build-project">
-        <echo message="build-project: ${ant.project.name}: ${ant.file}"/>
-        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
-            <src path="src"/>
-            <classpath refid="xmi.classpath"/>
-        </javac>
-    </target>
-    
-    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
-   
+              	      	
+    <path id="gen.classpath"> <!-- this jar are used to generate the output-file.jar of the uml2jpa project -->
+        <pathelement location="example/libgen/validation-api-2.0.1.Final.jar" />
+    </path>               	
+
+	<!-- adds Eclipse .jar to ant --> 
     <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
         <copy todir="${ant.library.dir}">
             <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
@@ -83,40 +62,61 @@
             <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
         </unzip>
     </target>
+    
+	<!-- call build target with eclipse compilier -->
     <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
-        <antcall target="build"/>
+        <antcall target="all"/>
     </target>
- 
-   
-              	
-              
-  <target name="create_run_jar">
-  <echo >
-  going to create ${dir.jarfile}/${myjar}
-  </echo>
-                    <jar destfile="${dir.jarfile}/${myjar}" filesetmanifest="mergewithoutmain">
-                        <manifest>
-                            <attribute name="Main-Class" value="generator.GenerateJPAapp"/>
-                            <attribute name="Class-Path" value="."/>
-                        </manifest>
-                        <fileset dir="${dir.jarfile}/bin"/>
-                        
-                    </jar>
-                </target>
-                
-   <target name="generate">
-	<exec executable="/bin/bash">
+    
+	<!-- create a file.class with file.java and create a jar file in test1 and archive file.class inside-->
+	<target name="create_gen_test1_jar"> <!--  some trouble with redondance -->
+		<echo >
+     		going to generate   ${mygentest1jar}
+		</echo>
+		<mkdir dir="example/test1/bin"/>
+		<javac debug="true" debuglevel="${debuglevel}" destdir="example/test1/bin" includeantruntime="false" 
+			source="${source}" target="${target}">
+			<src path="example/test1/gen"/> 
+			<classpath refid="xmi.classpath"/> 
+			<classpath refid="gen.classpath"/>
+		</javac>
+		<jar destfile="${mygentest1jar}" filesetmanifest="mergewithoutmain">
+	        <fileset dir="example/test1/bin"/>
+        </jar>
+	</target>
 
-	<arg value="${dir.buildfile}/generate_test1.sh"/>
-
-	</exec>
-</target>             
- 
- 
- <target depends="build,generate" name="test">
-	 
-</target>   
-               
-                
+	<!-- create a file.class with file.java and create a jar file in test1 and archive file.class inside-->
+	<target name="create_gen_test3_jar"> <!--  some trouble with redondance -->
+		<echo >
+     		going to generate   ${mygentest1jar}
+		</echo>
+		<mkdir dir="example/test3/bin"/>
+		<javac debug="true" debuglevel="${debuglevel}" destdir="example/test3/bin" includeantruntime="false" 
+			source="${source}" target="${target}">
+			<src path="example/test3/gen"/> 
+			<classpath refid="xmi.classpath"/> 
+			<classpath refid="gen.classpath"/>
+		</javac>
+		<jar destfile="${mygentest1jar}" filesetmanifest="mergewithoutmain">
+	        <fileset dir="example/test3/bin"/>
+        </jar>
+	</target>
+    
+	<!-- run the generate_test1.sh -->
+	<target name="generate_test1">
+		<exec executable="/bin/bash">
+			<arg value="${dir.buildfile}/generate_test1.sh"/>
+		</exec>
+	</target>  
+	<!-- run the generate_test3.sh -->
+	<target name="generate_test3">
+		<exec executable="/bin/bash">
+			<arg value="${dir.buildfile}/generate_test3.sh"/>
+		</exec>
+	</target>           
+	
+	<!-- run the generate_test1.sh and reate_gen_test1_jar -->
+	<target depends="generate_test1,create_gen_test1_jar" name="all"/> 
+	<target depends="generate_test3,create_gen_test3_jar" name="all3"/>         		 
 </project>

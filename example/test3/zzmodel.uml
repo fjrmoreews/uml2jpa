@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Dnzu4CLjEemQBOMfLjH7bw" name="zz">
+  <eAnnotations xmi:id="_Dnzu4SLjEemQBOMfLjH7bw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Dnzu4iLjEemQBOMfLjH7bw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Dnzu4yLjEemQBOMfLjH7bw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:id="_Dnzu5CLjEemQBOMfLjH7bw" constrainedElement="_Dnzu8CLjEemQBOMfLjH7bw">
+    <specification xmi:type="uml:LiteralString" xmi:id="_Dnzu5SLjEemQBOMfLjH7bw" value="inc({n=1)}"/>
+  </ownedRule>
+  <ownedRule xmi:id="_Dnzu5iLjEemQBOMfLjH7bw" name="ZZConstraint" constrainedElement="_Dnzu8iLjEemQBOMfLjH7bw">
+    <specification xmi:type="uml:LiteralString" xmi:id="_Dnzu5yLjEemQBOMfLjH7bw" value="zzInConstraint"/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Dnzu6CLjEemQBOMfLjH7bw" name="ClassA">
+    <ownedAttribute xmi:id="_Dnzu6SLjEemQBOMfLjH7bw" name="classB" visibility="public" type="_Dnzu-yLjEemQBOMfLjH7bw" association="_Dnzu8yLjEemQBOMfLjH7bw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dnzu6iLjEemQBOMfLjH7bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Dnzu6yLjEemQBOMfLjH7bw" name="classC" visibility="public" type="_Dnzu_iLjEemQBOMfLjH7bw" aggregation="shared" association="_Dnzu9iLjEemQBOMfLjH7bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dnzu7CLjEemQBOMfLjH7bw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Dnzu7SLjEemQBOMfLjH7bw" name="classD" visibility="public" type="_DnzvACLjEemQBOMfLjH7bw" aggregation="composite" association="_Dnzu-SLjEemQBOMfLjH7bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dnzu7iLjEemQBOMfLjH7bw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dnzu7yLjEemQBOMfLjH7bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Dnzu8CLjEemQBOMfLjH7bw" name="name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Dnzu8SLjEemQBOMfLjH7bw" name="firstname" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Dnzu8iLjEemQBOMfLjH7bw" name="zz" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Dnzu8yLjEemQBOMfLjH7bw" memberEnd="_Dnzu6SLjEemQBOMfLjH7bw _Dnzu9CLjEemQBOMfLjH7bw">
+    <ownedEnd xmi:id="_Dnzu9CLjEemQBOMfLjH7bw" visibility="public" type="_Dnzu6CLjEemQBOMfLjH7bw" association="_Dnzu8yLjEemQBOMfLjH7bw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dnzu9SLjEemQBOMfLjH7bw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Dnzu9iLjEemQBOMfLjH7bw" memberEnd="_Dnzu6yLjEemQBOMfLjH7bw _Dnzu9yLjEemQBOMfLjH7bw">
+    <ownedEnd xmi:id="_Dnzu9yLjEemQBOMfLjH7bw" visibility="public" type="_Dnzu6CLjEemQBOMfLjH7bw" association="_Dnzu9iLjEemQBOMfLjH7bw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dnzu-CLjEemQBOMfLjH7bw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Dnzu-SLjEemQBOMfLjH7bw" memberEnd="_Dnzu7SLjEemQBOMfLjH7bw _Dnzu-iLjEemQBOMfLjH7bw">
+    <ownedEnd xmi:id="_Dnzu-iLjEemQBOMfLjH7bw" visibility="public" type="_Dnzu6CLjEemQBOMfLjH7bw" association="_Dnzu-SLjEemQBOMfLjH7bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Dnzu-yLjEemQBOMfLjH7bw" name="ClassB">
+    <ownedAttribute xmi:id="_Dnzu_CLjEemQBOMfLjH7bw" name="number" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Dnzu_SLjEemQBOMfLjH7bw" name="Attribute1" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Dnzu_iLjEemQBOMfLjH7bw" name="ClassC">
+    <ownedAttribute xmi:id="_Dnzu_yLjEemQBOMfLjH7bw" name="Attribute" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DnzvACLjEemQBOMfLjH7bw" name="ClassD"/>
+</uml:Model>
