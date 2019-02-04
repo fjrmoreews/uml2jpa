@@ -6,54 +6,54 @@ import java.util.List;
  
 	
  
-public class ClassC  {
+public class ClassE  {
  //declarations
 	    /******************
-	     *0 !!!info ZA 
+	     *0 !!!info Money 
 	  
-	   *2 public String ZA;
+	   *2 public Integer Money;
 	   *3 type.name : 
-	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String /!\ attention erreur possible dans myType/!\
+	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer /!\ attention erreur possible dans myType/!\
 	   *5 type.class : class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
-	   *6 myType: String
-	   *7 		String
+	   *6 myType: Integer
+	   *7 		int
 	  	 **
 	    
 	   *****************/
 	
 	    /**
-	     * declaration ZA
+	     * declaration Money
 	     */ 
 	  
-	public String za;
+	public Integer money;
   
 //getter
  
 	    /**
-	     * Gets the value of ZA
+	     * Gets the value of Money
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5d465e4b (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@117e0fe5 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
-	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
+	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer
 	        
 	          nofragment:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml
-	          fragment:String
+	          fragment:Integer
 	      
 	     */
-	public String getZa() {
-		return this.za;
+	public Integer getMoney() {
+		return this.money;
 	}
       
 //setter
    
 	    /**
-	     * Sets the value of ZA
+	     * Sets the value of Money
 	     */
-	public void setZa(String za) {
-		this.za = za;
+	public void setMoney(Integer money) {
+		this.money = money;
 	}
       
 

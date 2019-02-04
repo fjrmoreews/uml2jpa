@@ -38,3 +38,15 @@ cp -r example/test1/gen src/
  * export your class diagram   as XMI (e.g. example/model1.uml)
  * ant test
  * ls example/gen/
+
+## Comment 
+
+See more information of UML association :
+ * https://github.com/creckord/org.eclipse.uml2/blob/master/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/AssociationImpl.java
+
+use UML and diffrent type of association present in UML model:
+ * 3 association : simple, aggregation, shared 
+ * 3 cardinality : one to one, one to many, many to one
+Becarful, not all association work :
+ * simple association only work with one to one
+ * other association only work with one to many
