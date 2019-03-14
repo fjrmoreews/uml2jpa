@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_G6SzQD6CEemJTPvfTKKx4A" name="Global">
+  <eAnnotations xmi:id="_G6TaUD6CEemJTPvfTKKx4A" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_G6TaUT6CEemJTPvfTKKx4A" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_G6TaUj6CEemJTPvfTKKx4A" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:id="_G6TaUz6CEemJTPvfTKKx4A" name="NotNull" constrainedElement="_G6Ta2j6CEemJTPvfTKKx4A">
+    <specification xmi:type="uml:LiteralString" xmi:id="_G6TaVD6CEemJTPvfTKKx4A" value="NotNull"/>
+  </ownedRule>
+  <ownedRule xmi:id="_G6TaVT6CEemJTPvfTKKx4A" name="NotNull" constrainedElement="_G6Ta2z6CEemJTPvfTKKx4A">
+    <specification xmi:type="uml:LiteralString" xmi:id="_G6TaVj6CEemJTPvfTKKx4A" value="NotNull"/>
+  </ownedRule>
+  <ownedRule xmi:id="_G6TaVz6CEemJTPvfTKKx4A" name="NotNull" constrainedElement="_G6Ta3D6CEemJTPvfTKKx4A">
+    <specification xmi:type="uml:LiteralString" xmi:id="_G6TaWD6CEemJTPvfTKKx4A" value="NotNull"/>
+  </ownedRule>
+  <ownedRule xmi:id="_G6TaWT6CEemJTPvfTKKx4A" name="NotNull" constrainedElement="_G6Ta3T6CEemJTPvfTKKx4A">
+    <specification xmi:type="uml:LiteralString" xmi:id="_G6TaWj6CEemJTPvfTKKx4A" value="NotNull"/>
+  </ownedRule>
+  <ownedRule xmi:id="_G6TaWz6CEemJTPvfTKKx4A" name="NotNull" constrainedElement="_G6Ta3j6CEemJTPvfTKKx4A">
+    <specification xmi:type="uml:LiteralString" xmi:id="_G6TaXD6CEemJTPvfTKKx4A" value="NotNull"/>
+  </ownedRule>
+  <ownedRule xmi:id="_G6TaXT6CEemJTPvfTKKx4A" name="NotNull" constrainedElement="_G6Ta3z6CEemJTPvfTKKx4A">
+    <specification xmi:type="uml:LiteralString" xmi:id="_G6TaXj6CEemJTPvfTKKx4A" value="NotNull"/>
+  </ownedRule>
+  <ownedRule xmi:id="_G6TaXz6CEemJTPvfTKKx4A" constrainedElement="_G6Ta4D6CEemJTPvfTKKx4A">
+    <specification xmi:type="uml:LiteralString" xmi:id="_G6TaYD6CEemJTPvfTKKx4A" value="Id"/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TaYT6CEemJTPvfTKKx4A" name="RadioactivityAnalysis">
+    <generalization xmi:id="_G6TaYj6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TaYz6CEemJTPvfTKKx4A" name="ColorimetricAssayAnalysis">
+    <generalization xmi:id="_G6TaZD6CEemJTPvfTKKx4A" general="_G6TaeT6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TaZT6CEemJTPvfTKKx4A" name="TissueInitialQt" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TaZj6CEemJTPvfTKKx4A" name="TamponVolume" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TaZz6CEemJTPvfTKKx4A" name="ProtExtracProtoc" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TaaD6CEemJTPvfTKKx4A" name="DosageType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TaaT6CEemJTPvfTKKx4A" name="WaveLength" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Taaj6CEemJTPvfTKKx4A" name="PlatePlan" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Taaz6CEemJTPvfTKKx4A" name="SampleDilution" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TabD6CEemJTPvfTKKx4A" name="Equation" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TabT6CEemJTPvfTKKx4A" name="Rsquared" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tabj6CEemJTPvfTKKx4A" name="Gamme" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tabz6CEemJTPvfTKKx4A" name="ELISAStar">
+    <ownedComment xmi:id="_G6TacD6CEemJTPvfTKKx4A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+    <generalization xmi:id="_G6TacT6CEemJTPvfTKKx4A" general="_G6Tadz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6Tacj6CEemJTPvfTKKx4A" name="Tracer" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tacz6CEemJTPvfTKKx4A" name="SensiThreshold" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TadD6CEemJTPvfTKKx4A" name="RefAC1" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TadT6CEemJTPvfTKKx4A" name="RefAC2" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tadj6CEemJTPvfTKKx4A" name="SampleDilution" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tadz6CEemJTPvfTKKx4A" name="EnzymaticActivityMeasurementsAnalysis">
+    <generalization xmi:id="_G6TaeD6CEemJTPvfTKKx4A" general="_G6TaeT6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TaeT6CEemJTPvfTKKx4A" name="SpectrophotometryAnalysis">
+    <generalization xmi:id="_G6Taej6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6Taez6CEemJTPvfTKKx4A" name="AcNuclType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TafD6CEemJTPvfTKKx4A" name="ExtracType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TafT6CEemJTPvfTKKx4A" name="ExtracKitRef" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tafj6CEemJTPvfTKKx4A" name="SampleVol" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tafz6CEemJTPvfTKKx4A" name="FlowCytometryAnalysis">
+    <generalization xmi:id="_G6TagD6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TagT6CEemJTPvfTKKx4A" name="ConcentrationAnalysis">
+    <generalization xmi:id="_G6Tagj6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6Tagz6CEemJTPvfTKKx4A" name="SampleVol" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TahD6CEemJTPvfTKKx4A" name="UPLCAnalysis">
+    <generalization xmi:id="_G6TahT6CEemJTPvfTKKx4A" general="_G6UBZT6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tahj6CEemJTPvfTKKx4A" name="ChromametryAnalysis">
+    <generalization xmi:id="_G6Tahz6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TaiD6CEemJTPvfTKKx4A" name="MeasuringFieldNumber" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TaiT6CEemJTPvfTKKx4A" name="ElectrophoresisAnalysis">
+    <generalization xmi:id="_G6Taij6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Taiz6CEemJTPvfTKKx4A" name="WesternBlotAnalysis">
+    <generalization xmi:id="_G6TajD6CEemJTPvfTKKx4A" general="_G6UBiz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TajT6CEemJTPvfTKKx4A" name="TransferTypeCond" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tajj6CEemJTPvfTKKx4A" name="MembraneType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tajz6CEemJTPvfTKKx4A" name="Antibody1" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TakD6CEemJTPvfTKKx4A" name="Antibody2" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TakT6CEemJTPvfTKKx4A" name="RevelationTech" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Takj6CEemJTPvfTKKx4A" name="ParamSoftwareImage" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Takz6CEemJTPvfTKKx4A" name="CellMicroscopyAnalysis">
+    <generalization xmi:id="_G6TalD6CEemJTPvfTKKx4A" general="_G6Tauz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TalT6CEemJTPvfTKKx4A" name="DilutionFactor" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Talj6CEemJTPvfTKKx4A" name="CellCount" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Talz6CEemJTPvfTKKx4A" name="LuminescenceAnalysis">
+    <generalization xmi:id="_G6TamD6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TamT6CEemJTPvfTKKx4A" name="LIAanalysis">
+    <generalization xmi:id="_G6Tamj6CEemJTPvfTKKx4A" general="_G6Talz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6Tamz6CEemJTPvfTKKx4A" name="SensiThreshold" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TanD6CEemJTPvfTKKx4A" name="SampleVol" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TanT6CEemJTPvfTKKx4A" name="SampleDilution" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tanj6CEemJTPvfTKKx4A" name="SequencingAnalysis">
+    <generalization xmi:id="_G6Tanz6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TaoD6CEemJTPvfTKKx4A" name="ReadLign" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TaoT6CEemJTPvfTKKx4A" name="Flowcell" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Taoj6CEemJTPvfTKKx4A" name="PoolNum" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Taoz6CEemJTPvfTKKx4A" name="RIAanalysis">
+    <generalization xmi:id="_G6TapD6CEemJTPvfTKKx4A" general="_G6TaYT6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TapT6CEemJTPvfTKKx4A" name="SampleVol" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tapj6CEemJTPvfTKKx4A" name="SampleDilution" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tapz6CEemJTPvfTKKx4A" name="AIAAnalysis">
+    <generalization xmi:id="_G6TaqD6CEemJTPvfTKKx4A" general="_G6UBkT6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TaqT6CEemJTPvfTKKx4A" name="CalibPrecGammeBlanc" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Taqj6CEemJTPvfTKKx4A" name="SampleVol" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Taqz6CEemJTPvfTKKx4A" name="SampleDilution" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TarD6CEemJTPvfTKKx4A" name="FACSAnalysis">
+    <generalization xmi:id="_G6TarT6CEemJTPvfTKKx4A" general="_G6Tafz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6Tarj6CEemJTPvfTKKx4A" name="CellCount" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tarz6CEemJTPvfTKKx4A" name="MicroarrayAnalysis">
+    <generalization xmi:id="_G6TasD6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TasT6CEemJTPvfTKKx4A" name="MarkingType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tasj6CEemJTPvfTKKx4A" name="AnnotCardConnexion" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tasz6CEemJTPvfTKKx4A" name="GasChromatographyAnalysis">
+    <generalization xmi:id="_G6TatD6CEemJTPvfTKKx4A" general="_G6UBZT6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TatT6CEemJTPvfTKKx4A" name="ExtracType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tatj6CEemJTPvfTKKx4A" name="SpectrometryAnalysis">
+    <generalization xmi:id="_G6Tatz6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TauD6CEemJTPvfTKKx4A" name="SampleVol" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TauT6CEemJTPvfTKKx4A" name="PCRAnalysis">
+    <generalization xmi:id="_G6Tauj6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tauz6CEemJTPvfTKKx4A" name="ImagingAnalysis">
+    <generalization xmi:id="_G6TavD6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TavT6CEemJTPvfTKKx4A" name="EnzymaticEndpointAssayAnalysis">
+    <generalization xmi:id="_G6Tavj6CEemJTPvfTKKx4A" general="_G6Tadz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6Tavz6CEemJTPvfTKKx4A" name="Dilution" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6TawD6CEemJTPvfTKKx4A" name="CapillaryElectrophoresisAnalysis">
+    <generalization xmi:id="_G6TawT6CEemJTPvfTKKx4A" general="_G6TaiT6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6Tawj6CEemJTPvfTKKx4A" name="ArrayType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Tawz6CEemJTPvfTKKx4A" name="HistologyAnalysis">
+    <generalization xmi:id="_G6TaxD6CEemJTPvfTKKx4A" general="_G6Tauz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6TaxT6CEemJTPvfTKKx4A" name="ColorRefProdCrit" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Taxj6CEemJTPvfTKKx4A" name="InclusionType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Taxz6CEemJTPvfTKKx4A" name="CuttingDevice" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TayD6CEemJTPvfTKKx4A" name="MicroscopeType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TayT6CEemJTPvfTKKx4A" name="FixationType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tayj6CEemJTPvfTKKx4A" name="ImageScale" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tayz6CEemJTPvfTKKx4A" name="LameNum" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TazD6CEemJTPvfTKKx4A" name="CuttingThickness" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6TazT6CEemJTPvfTKKx4A" name="MicroscopeGrowth" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tazj6CEemJTPvfTKKx4A" name="SoftwareAnalysis" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Tazz6CEemJTPvfTKKx4A" name="MeasuringField" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Ta0D6CEemJTPvfTKKx4A" name="GravimetryAnalysis">
+    <generalization xmi:id="_G6Ta0T6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6Ta0j6CEemJTPvfTKKx4A" name="SampleVol" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Ta0z6CEemJTPvfTKKx4A" name="ProgressiveCurveExperimentAnalysis">
+    <generalization xmi:id="_G6Ta1D6CEemJTPvfTKKx4A" general="_G6Tadz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6Ta1T6CEemJTPvfTKKx4A" name="MeasurementTime" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Ta1j6CEemJTPvfTKKx4A" name="Frequence" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Ta1z6CEemJTPvfTKKx4A" name="ComportementAnalysis">
+    <generalization xmi:id="_G6Ta2D6CEemJTPvfTKKx4A" general="_G6UBYT6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Ta2T6CEemJTPvfTKKx4A" name="GeneralAnalysis">
+    <ownedAttribute xmi:id="_G6Ta2j6CEemJTPvfTKKx4A" name="DateExp" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Ta2z6CEemJTPvfTKKx4A" name="Operator" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Ta3D6CEemJTPvfTKKx4A" name="SampleID" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Ta3T6CEemJTPvfTKKx4A" name="Device" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Ta3j6CEemJTPvfTKKx4A" name="ProdCrit" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Ta3z6CEemJTPvfTKKx4A" name="MOL" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6Ta4D6CEemJTPvfTKKx4A" name="PrimaryKey" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Ta4T6CEemJTPvfTKKx4A" name="RNASeqAnalysis">
+    <generalization xmi:id="_G6Ta4j6CEemJTPvfTKKx4A" general="_G6Tanj6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Ta4z6CEemJTPvfTKKx4A" name="HistochemistryAnalysis">
+    <generalization xmi:id="_G6Ta5D6CEemJTPvfTKKx4A" general="_G6Tawz6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Ta5T6CEemJTPvfTKKx4A" name="ImmunohistochemistryAnalysis">
+    <generalization xmi:id="_G6Ta5j6CEemJTPvfTKKx4A" general="_G6Tawz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6Ta5z6CEemJTPvfTKKx4A" name="AntibodyRefDilu" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Ta6D6CEemJTPvfTKKx4A" name="SNPArrayAnalysis">
+    <generalization xmi:id="_G6Ta6T6CEemJTPvfTKKx4A" general="_G6Tarz6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6Ta6j6CEemJTPvfTKKx4A" name="ImmuneDiffusionAnalysis">
+    <generalization xmi:id="_G6Ta6z6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6UBYD6CEemJTPvfTKKx4A" name="MethodIDR" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBYT6CEemJTPvfTKKx4A" name="BehaviorAnalysis">
+    <generalization xmi:id="_G6UBYj6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBYz6CEemJTPvfTKKx4A" name="NGSAnalysis">
+    <generalization xmi:id="_G6UBZD6CEemJTPvfTKKx4A" general="_G6Tanj6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBZT6CEemJTPvfTKKx4A" name="ChromatographyAnalysis">
+    <generalization xmi:id="_G6UBZj6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6UBZz6CEemJTPvfTKKx4A" name="SampleVol" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBaD6CEemJTPvfTKKx4A" name="ExonArrayAnalysis">
+    <generalization xmi:id="_G6UBaT6CEemJTPvfTKKx4A" general="_G6Tarz6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBaj6CEemJTPvfTKKx4A" name="QRtPCRAnalysis">
+    <generalization xmi:id="_G6UBaz6CEemJTPvfTKKx4A" general="_G6TauT6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6UBbD6CEemJTPvfTKKx4A" name="RTParam" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBbT6CEemJTPvfTKKx4A" name="TechnoType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBbj6CEemJTPvfTKKx4A" name="PrimersGenes" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBbz6CEemJTPvfTKKx4A" name="PrimerEfficiency" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBcD6CEemJTPvfTKKx4A" name="QtcDNA" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBcT6CEemJTPvfTKKx4A" name="PlatePlan" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBcj6CEemJTPvfTKKx4A" name="ELISAanalysis">
+    <generalization xmi:id="_G6UBcz6CEemJTPvfTKKx4A" general="_G6Tadz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6UBdD6CEemJTPvfTKKx4A" name="PlatePlan" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBdT6CEemJTPvfTKKx4A" name="SensiThreshold" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBdj6CEemJTPvfTKKx4A" name="RefAC1" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBdz6CEemJTPvfTKKx4A" name="RefAC2" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBeD6CEemJTPvfTKKx4A" name="SampleDilution" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBeT6CEemJTPvfTKKx4A" name="HPLCAnalysis">
+    <generalization xmi:id="_G6UBej6CEemJTPvfTKKx4A" general="_G6UBZT6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBez6CEemJTPvfTKKx4A" name="ElectrochemicalMeasurementAnalysis">
+    <generalization xmi:id="_G6UBfD6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6UBfT6CEemJTPvfTKKx4A" name="SampleVol" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBfj6CEemJTPvfTKKx4A" name="CalorimetryAnalysis">
+    <generalization xmi:id="_G6UBfz6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6UBgD6CEemJTPvfTKKx4A" name="SampleVol" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBgT6CEemJTPvfTKKx4A" name="TwoDgelElectrophoresisAnalysis">
+    <generalization xmi:id="_G6UBgj6CEemJTPvfTKKx4A" general="_G6UBiz6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6UBgz6CEemJTPvfTKKx4A" name="StripNum" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBhD6CEemJTPvfTKKx4A" name="GelIdent" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBhT6CEemJTPvfTKKx4A" name="ScanIdent" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBhj6CEemJTPvfTKKx4A" name="Coloration" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBhz6CEemJTPvfTKKx4A" name="ResolutionLevel" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBiD6CEemJTPvfTKKx4A" name="SoftwareAnalysis" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBiT6CEemJTPvfTKKx4A" name="CellMorphologyAnalysis">
+    <generalization xmi:id="_G6UBij6CEemJTPvfTKKx4A" general="_G6Tauz6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBiz6CEemJTPvfTKKx4A" name="GelElectrophoresisAnalysis">
+    <generalization xmi:id="_G6UBjD6CEemJTPvfTKKx4A" general="_G6TaiT6CEemJTPvfTKKx4A"/>
+    <ownedAttribute xmi:id="_G6UBjT6CEemJTPvfTKKx4A" name="GelType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBjj6CEemJTPvfTKKx4A" name="Program" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBjz6CEemJTPvfTKKx4A" name="QtDepositedProt" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G6UBkD6CEemJTPvfTKKx4A" name="ProtExtracType" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G6UBkT6CEemJTPvfTKKx4A" name="FluorescenceAnalysis">
+    <generalization xmi:id="_G6UBkj6CEemJTPvfTKKx4A" general="_G6Ta2T6CEemJTPvfTKKx4A"/>
+  </packagedElement>
+</uml:Model>

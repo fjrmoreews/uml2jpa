@@ -14,7 +14,9 @@
               	 	
     <property name="dir.buildfile" value="."/>
 
-    <property name="mygentest1jar" value="example/test1/model.gen.test1.jar"/>               	
+    <property name="mygentest1jar" value="example/test1/model.gen.test1.jar"/>
+    <property name="mygentest3jar" value="example/test3/model.gen.test3.jar"/>
+    <property name="mygentest4jar" value="example/test4/model.gen.test4.jar"/>
               	
     <!-- path location point library are use by a target, 
     	 the path id is the id use in target to know which library are used by the target
@@ -88,11 +90,10 @@
 	        <fileset dir="example/test1/bin"/>
         </jar>
 	</target>
-
 	<!-- create a file.class with file.java and create a jar file in test1 and archive file.class inside-->
 	<target name="create_gen_test3_jar"> <!--  some trouble with redondance -->
 		<echo >
-     		going to generate   ${mygentest1jar}
+     		going to generate   ${mygentest3jar}
 		</echo>
 		<mkdir dir="example/test3/bin"/>
 		<javac debug="true" debuglevel="${debuglevel}" destdir="example/test3/bin" includeantruntime="false" 
@@ -101,11 +102,26 @@
 			<classpath refid="xmi.classpath"/> 
 			<classpath refid="gen.classpath"/>
 		</javac>
-		<jar destfile="${mygentest1jar}" filesetmanifest="mergewithoutmain">
+		<jar destfile="${mygentest3jar}" filesetmanifest="mergewithoutmain">
 	        <fileset dir="example/test3/bin"/>
         </jar>
 	</target>
-    
+	<!-- create a file.class with file.java and create a jar file in test1 and archive file.class inside-->
+	<target name="create_gen_test4_jar"> <!--  some trouble with redondance -->
+		<echo >
+	     	going to generate   ${mygentest4jar}
+		</echo>
+		<mkdir dir="example/test4/bin"/>
+		<javac debug="true" debuglevel="${debuglevel}" destdir="example/test4/bin" includeantruntime="false" 
+			source="${source}" target="${target}">
+			<src path="example/test4/gen"/> 
+			<classpath refid="xmi.classpath"/> 
+			<classpath refid="gen.classpath"/>
+		</javac>
+		<jar destfile="${mygentest4jar}" filesetmanifest="mergewithoutmain">
+		    <fileset dir="example/test4/bin"/>
+	    </jar>
+	</target>
 	<!-- run the generate_test1.sh -->
 	<target name="generate_test1">
 		<exec executable="/bin/bash">
@@ -117,9 +133,16 @@
 		<exec executable="/bin/bash">
 			<arg value="${dir.buildfile}/generate_test3.sh"/>
 		</exec>
-	</target>           
+	</target>
+	<!-- run the generate_test4.sh -->
+	<target name="generate_inra_dev_test">
+			<exec executable="/bin/bash">
+				<arg value="${dir.buildfile}/generate_inra_dev_test.sh"/>
+			</exec>
+		</target>
 	
 	<!-- run the generate_test1.sh and reate_gen_test1_jar -->
 	<target depends="generate_test1,create_gen_test1_jar" name="all"/> 
-	<target depends="generate_test3,create_gen_test3_jar" name="all3"/>         		 
+	<target depends="generate_test3,create_gen_test3_jar" name="all3"/>
+	<target depends="generate_inra_dev_test,create_gen_test4_jar" name="all4"/>
 </project>

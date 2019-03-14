@@ -10,10 +10,9 @@ import thewebsemantic.Namespace;
 import com.hp.hpl.jena.sparql.vocabulary.FOAF;
 import thewebsemantic.binding.Jenabean;
 import thewebsemantic.binding.RdfBean;
-import thewebsemantic.vocabulary.Foaf;
  
 	
- 
+@Namespace("http://inra/pegase#")
 public class ClassA extends ClassE {
  //declarations
 	    /******************
@@ -21,7 +20,7 @@ public class ClassA extends ClassE {
 	  
 	   *2 public ClassB classB;
 	   *3 type.name : ClassB
-	   *4 type.name(proxyURL) :  /!\ attention erreur possible dans myType/!\
+	   *4 type.name(proxyURL) :  
 	   *5 type.class : class org.eclipse.uml2.uml.internal.impl.ClassImpl
 	   *6 myType: ClassB
 	   *7 		class
@@ -32,38 +31,16 @@ public class ClassA extends ClassE {
 	    /**
 	     * declaration classB
 	     */ 
-	  
 	public ClassB classb;
   
   
-  
-	    /******************
-	     *0 !!!info name 
-	   *1			@inc({n=1)} 
-	  
-	   *2 public String name;
-	   *3 type.name : 
-	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String /!\ attention erreur possible dans myType/!\
-	   *5 type.class : class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
-	   *6 myType: String
-	   *7 		String
-	  	 **
-	    
-	   *****************/
-	
-	    /**
-	     * declaration name
-	     */ 
-	// @inc({n=1)} 
-	  
-	public String name;
   
 	    /******************
 	     *0 !!!info age 
 	  
 	   *2 public Integer age;
 	   *3 type.name : 
-	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer /!\ attention erreur possible dans myType/!\
+	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer 
 	   *5 type.class : class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	   *6 myType: Integer
 	   *7 		int
@@ -74,16 +51,15 @@ public class ClassA extends ClassE {
 	    /**
 	     * declaration age
 	     */ 
-	  
 	public Integer age;
   
 	    /******************
 	     *0 !!!info zz 
-	   *1			@zzInConstraint 
+	   *1 @RdfProperty(FOAF.NS+"zzContraint") KISS
 	  
 	   *2 public EFloat zz;
 	   *3 type.name : 
-	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat /!\ attention erreur possible dans myType/!\
+	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat 
 	   *5 type.class : class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	   *6 myType: EFloat
 	   *7 		float
@@ -94,8 +70,7 @@ public class ClassA extends ClassE {
 	    /**
 	     * declaration zz
 	     */ 
-	// @zzInConstraint 
-	  
+	@RdfProperty(FOAF.NS+"zzContraint")
 	public Float zz;
   
 	    /******************
@@ -103,7 +78,7 @@ public class ClassA extends ClassE {
 	  
 	   *2 public EDouble dz;
 	   *3 type.name : 
-	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble /!\ attention erreur possible dans myType/!\
+	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble 
 	   *5 type.class : class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	   *6 myType: EDouble
 	   *7 		double
@@ -114,7 +89,6 @@ public class ClassA extends ClassE {
 	    /**
 	     * declaration dz
 	     */ 
-	  
 	public Double dz;
   
 	    /******************
@@ -122,7 +96,7 @@ public class ClassA extends ClassE {
 	  
 	   *2 public EDate Date;
 	   *3 type.name : 
-	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate /!\ attention erreur possible dans myType/!\
+	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate 
 	   *5 type.class : class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	   *6 myType: EDate
 	   *7 		date
@@ -133,7 +107,6 @@ public class ClassA extends ClassE {
 	    /**
 	     * declaration Date
 	     */ 
-	  
 	public Date date;
   
 //getter
@@ -143,7 +116,7 @@ public class ClassA extends ClassE {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.ClassImpl
 	      classS:ClassImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.ClassImpl@611df6e3 (name: ClassB, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false) (isActive: false)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.ClassImpl@5f2f577 (name: ClassB, visibility: <unset>) (isLeaf: false, isAbstract: false, isFinalSpecialization: false) (isActive: false)
 	      typeName:ClassB
 	      
 	      
@@ -154,30 +127,11 @@ public class ClassA extends ClassE {
       
  
 	    /**
-	     * Gets the value of name
-	     
-	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
-	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@757d6814 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
-	      typeName:
-	      
-	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
-	        
-	          nofragment:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml
-	          fragment:String
-	      
-	     */
-	public String getName() {
-		return this.name;
-	}
-      
- 
-	    /**
 	     * Gets the value of age
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6326d182 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@4c168660 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer
@@ -196,7 +150,7 @@ public class ClassA extends ClassE {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@716a7124 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@77192705 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -215,7 +169,7 @@ public class ClassA extends ClassE {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@226642a5 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@7e809b79 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble
@@ -234,7 +188,7 @@ public class ClassA extends ClassE {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5cc126dc (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@625e134e (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate
@@ -257,14 +211,6 @@ public class ClassA extends ClassE {
 	}
       
       
-      
-   
-	    /**
-	     * Sets the value of name
-	     */
-	public void setName(String name) {
-		this.name = name;
-	}
       
    
 	    /**
@@ -299,15 +245,14 @@ public class ClassA extends ClassE {
 	}
       
 
-
 	public List<ClassC> classc = new ArrayList<ClassC> ();
 
-//AssociationImpl.getMemberEnds:[org.eclipse.uml2.uml.internal.impl.PropertyImpl@592e843a (name: classC, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: shared, isDerived: false, isDerivedUnion: false, isID: false), org.eclipse.uml2.uml.internal.impl.PropertyImpl@2cf92cc7 (name: <unset>, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: none, isDerived: false, isDerivedUnion: false, isID: false)]
+//AssociationImpl.getMemberEnds:[org.eclipse.uml2.uml.internal.impl.PropertyImpl@1536602f (name: classC, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: shared, isDerived: false, isDerivedUnion: false, isID: false), org.eclipse.uml2.uml.internal.impl.PropertyImpl@30ea8c23 (name: <unset>, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: none, isDerived: false, isDerivedUnion: false, isID: false)]
 
 
 	public List<ClassD> classd = new ArrayList<ClassD> ();
 
-//AssociationImpl.getMemberEnds:[org.eclipse.uml2.uml.internal.impl.PropertyImpl@25ddbbbb (name: classD, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: composite, isDerived: false, isDerivedUnion: false, isID: false), org.eclipse.uml2.uml.internal.impl.PropertyImpl@4e76dac (name: <unset>, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: none, isDerived: false, isDerivedUnion: false, isID: false)]
+//AssociationImpl.getMemberEnds:[org.eclipse.uml2.uml.internal.impl.PropertyImpl@2a1edad4 (name: classD, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: composite, isDerived: false, isDerivedUnion: false, isID: false), org.eclipse.uml2.uml.internal.impl.PropertyImpl@611df6e3 (name: <unset>, visibility: public) (isLeaf: false) (isStatic: false) (isOrdered: false, isUnique: true, isReadOnly: false) (aggregation: none, isDerived: false, isDerivedUnion: false, isID: false)]
 
 }
 
