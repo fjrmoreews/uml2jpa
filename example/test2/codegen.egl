@@ -1,6 +1,17 @@
-import javax.validation.constraints.*;
-import java.util.Date;
+package gen;
 
+import javax.validation.constraints.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import thewebsemantic.Id;
+import thewebsemantic.RdfProperty;
+import thewebsemantic.Namespace;
+import com.hp.hpl.jena.sparql.vocabulary.FOAF;
+import thewebsemantic.binding.Jenabean;
+import thewebsemantic.binding.RdfBean;
+import uml2rdf.utils.*;
+ 
 [%var allAttributes = aClass.attributes;%]
 [%
     var parentSet =aClass.generalization.general.name; 
@@ -12,41 +23,51 @@ import java.util.Date;
 
 	} %]
 	
- 
- 
- 
  [% var allOperations = aClass.operations; %]
- 
- 
-public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
+@Namespace("http://inra/pegase#")
+public class [%=aClass.name.firstToUpperCase()%] [%=extendsClass%] {
  //declarations
 [% for (feature in aClass.features) { %]
-
-  [%=feature.declare()%]
- 
+   [% if (feature.aggregation.value == 0) { %]
+	[%=feature.info()%]
+	
+	[%=feature.declare()%]
+   [% } else { %]
+      [% } %]  
 [% } %]
 //getter
 [% for (feature in aClass.features) { %]
+   [% if (feature.aggregation.value == 0) { %]
  
-  [%=feature.getter()%]
- 
+	[%=feature.getter()%]
+      
+   [% } else { %]
+      [% } %]
 [% } %]
 //setter
 [% for (feature in aClass.features) { %]
-  
-   [%=feature.setter()%]
+   [% if (feature.aggregation.value == 0) { %]
+   
+	[%=feature.setter()%]
+   [% } else { %]
+      [% } %]      
 [% } %]
-}
-
-
 [%for (a in Association.allInstances){%]
-//AssociationImpl.getOwnedEnds:[%=a.getOwnedEnds()%]
+	[%if (a.getMemberEnds.aggregation[0].value == 0) { %]
+	[% } else { %]
+
+	[%=a.getMemberEnds.visibility[0]%] List<[%=a.getMemberEnds.name[0].firstToUpperCase()%]> [%=a.getMemberEnds.name[0].toLowerCase()%] = new ArrayList<[%=a.getMemberEnds.name[0].firstToUpperCase()%]> ();
+
 //AssociationImpl.getMemberEnds:[%=a.getMemberEnds()%]
-//AssociationImpl.getNavigableOwnedEnds[%=a.getNavigableOwnedEnds()%]
+
+	[%}%]
 [%}%]
 [%for(anOperation in allOperations) { %]
+
 //     [%=anOperation.visibility%]  [%=anOperation.type.name%]  [%=anOperation.name%]() {
+
 [%}%]
+}
 
    [%
   @template
@@ -60,14 +81,12 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
       }else{
           attType=self.type.eProxyURI.fragment();
       }  
-     
-      
       }
     if (self.type.class.getSimpleName() == "ClassImpl"){ 
       attType=self.type.name.firstToUpperCase();
       //typeParentSet =self.type.class.generalization.general.name;
     }    
-	%] [%=attType%][% }
+	%][%=attType%][% }
 %]
 
 
@@ -97,17 +116,13 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
            [%
       		}  
         %]
-        
-        
-
-      
       [%
       } %]
       
      */
-     public [%=self.correctPrimType()%] get[%=self.name.firstToUpperCase()%]() {
-        return this.[%=self.name.firstToLowerCase()%];
-     }
+public [%=self.correctPrimType()%] get[%=self.name.toLowerCase().firstToUpperCase()%]() {
+	return this.[%=self.name.toLowerCase()%];
+}
   [% } %]
   
   
@@ -117,9 +132,9 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
     /**
      * Sets the value of [%=self.name%]
      */
-     public void set[%=self.name.firstToUpperCase()%]([%=self.correctPrimType()%] [%=self.name.firstToLowerCase()%]) {
-        this.[%=self.name.firstToLowerCase()%] = [%=self.name.firstToLowerCase()%];
-     }
+public void set[%=self.name.toLowerCase().firstToUpperCase()%]([%=self.correctPrimType()%] [%=self.name.toLowerCase()%]) {
+	this.[%=self.name.toLowerCase()%] = [%=self.name.toLowerCase()%];
+}
    [% }
 %]
 
@@ -131,10 +146,9 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
      * declaration [%=self.name%]
      */ 
    [%for(prop in self.getRedefinedProperties()){%]
-			@[%=prop.name%] 
-   [%}%]  
- 
-   [%=self.visibility%] [%=self.correctPrimType()%] [%=self.name.firstToLowerCase()%];
+@[%=prop.name%]
+	[%}%]
+[%=self.visibility%] [%=self.correctPrimType()%] [%=self.name.toLowerCase()%];
    [% }
 %]
 
@@ -142,22 +156,59 @@ public class  [%=aClass.name.firstToUpperCase()%] [%=extendsClass%]  {
 	@template
 	operation Feature correctPrimType() { 
 	var type=""; 
-	var date="";
-  	 if (self.type.name.equals("String")){
-  	 	type=self.myType().firstToUpperCase();
+  	 if (self.myType() == "String"){
+  	 	type=self.myType();
   	 }
-  	 if (self.type.name.equals("EDate")){
-  	 	date=self.myType().substring(2,6).toLowerCase();
-  	 	type=date.firstToUpperCase();
+  	 if (self.myType() == "EDate"){
+  	 	type=self.myType().substring(1,5).firstToUpperCase();
   	 }
-  	 if (self.type.name.equals("Integer")){
-  		type=self.myType().substring(0,4).toLowerCase();
+  	 if (self.myType() == "Integer"){
+  		type=self.myType().substring(0,7).firstToUpperCase();
  	 }
- 	 if (self.type.name.startsWith("E") and not self.type.name.equals("EDate")) {
-  		type=self.myType().replace("E","").toLowerCase();
-   	} 
-   	%] [%=type%] 
- 	
+ 	 if (self.myType() == "EDouble") {
+  		type=self.myType().substring(1,7).firstToUpperCase();
+   	 } 
+   	 if (self.myType() == "EFloat") {
+  		type=self.myType().substring(1,6).firstToUpperCase();
+   	 }
+   	 if (self.type.eProxyURI == null) {
+  		type=self.myType();
+   	 }
+   	%][%=type%]
  	[%}%]
- 	
- 
+
+    [%
+    @template
+  operation Feature info() { %]
+    /******************
+     *0 !!!info [%=self.name%] 
+   [%for(prop in self.getRedefinedProperties()){%]
+   *1 @[%=prop.name%] KISS
+   [%}%]  
+   *2 [%=self.visibility%] [%=self.myType()%] [%=self.name%];
+   *3 type.name : [%=self.type.name%]
+   *4 type.name(proxyURL) : [%=self.type.eProxyURI%] 
+   *5 type.class : [%=self.type.class%]
+   *6 myType: [%=self.myType()%]
+   *7 [% if (self.myType() == "String"){ %]
+		[%=self.myType()%]
+  	 [% } %]
+  	 [% if (self.myType() == "Integer"){ %]
+		[%=self.myType().substring(0,3).toLowerCase()%]
+  	 [% } %]
+  	 [% if (self.myType() == "EFloat"){ %]
+		[%=self.myType().substring(1,6).toLowerCase()%]
+  	 [% } %]
+  	 [% if (self.myType() == "EDouble"){ %]
+		[%=self.myType().substring(1,7).toLowerCase()%]
+  	 [% } %]
+  	 [% if (self.myType() == "EDate"){ %]
+		[%=self.myType().substring(1,5).toLowerCase()%]
+  	 [% } %]
+  	 [% if (self.type.eProxyURI == null){ %]
+		class
+  	 [% } %]
+  	 **
+    
+   *****************/
+   [% } %]

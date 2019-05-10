@@ -55,6 +55,7 @@
     	<pathelement location="example/libgen/jenabean-1.0.6.jar" />
     	<pathelement location="example/libgen/jena-2.6.2.jar" />
     	<pathelement location="example/libgen/arq-2.8.2.jar" />
+    	<pathelement location="example/libgen/xref_util.jar" />
     </path>               	
 
 	<!-- adds Eclipse .jar to ant --> 
@@ -107,19 +108,19 @@
         </jar>
 	</target>
 	<!-- create a file.class with file.java and create a jar file in test1 and archive file.class inside-->
-	<target name="create_gen_test4_jar"> <!--  some trouble with redondance -->
+	<target name="create_gen_inra_dev_test_jar"> <!--  some trouble with redondance -->
 		<echo >
 	     	going to generate   ${mygentest4jar}
 		</echo>
-		<mkdir dir="example/test4/bin"/>
-		<javac debug="true" debuglevel="${debuglevel}" destdir="example/test4/bin" includeantruntime="false" 
+		<mkdir dir="example/inra_dev_test/bin"/>
+		<javac debug="true" debuglevel="${debuglevel}" destdir="example/inra_dev_test/bin" includeantruntime="false" 
 			source="${source}" target="${target}">
-			<src path="example/test4/gen"/> 
+			<src path="example/inra_dev_test/gen"/> 
 			<classpath refid="xmi.classpath"/> 
 			<classpath refid="gen.classpath"/>
 		</javac>
 		<jar destfile="${mygentest4jar}" filesetmanifest="mergewithoutmain">
-		    <fileset dir="example/test4/bin"/>
+		    <fileset dir="example/inra_dev_test/bin"/>
 	    </jar>
 	</target>
 	<!-- run the generate_test1.sh -->
@@ -144,5 +145,5 @@
 	<!-- run the generate_test1.sh and reate_gen_test1_jar -->
 	<target depends="generate_test1,create_gen_test1_jar" name="all"/> 
 	<target depends="generate_test3,create_gen_test3_jar" name="all3"/>
-	<target depends="generate_inra_dev_test,create_gen_test4_jar" name="all4"/>
+	<target depends="generate_inra_dev_test,create_gen_inra_dev_test_jar" name="all4"/>
 </project>
