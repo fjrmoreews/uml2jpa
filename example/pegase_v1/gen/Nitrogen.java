@@ -15,7 +15,7 @@ import uml2rdf.utils.*;
  //120 ==TEST_HERE== TEST_A_TEST
 	
 @Namespace("http://inra/pegase#")
-public class Nitrogen  {
+public class Nitrogen extends Gravimetry {
  //declarations
 	    /******************
 	     *0 !!!info catalyst 
@@ -45,7 +45,7 @@ public class Nitrogen  {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@2002348 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@72c28d64 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String

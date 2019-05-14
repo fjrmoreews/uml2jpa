@@ -15,7 +15,7 @@ import uml2rdf.utils.*;
  //120 ==TEST_HERE== TEST_A_TEST
 	
 @Namespace("http://inra/pegase#")
-public class GasChromatography  {
+public class GasChromatography extends Chromatography {
  //declarations
 //getter
 //setter

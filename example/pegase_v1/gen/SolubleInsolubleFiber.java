@@ -15,7 +15,7 @@ import uml2rdf.utils.*;
  //120 ==TEST_HERE== TEST_A_TEST
 	
 @Namespace("http://inra/pegase#")
-public class SolubleInsolubleFiber  {
+public class SolubleInsolubleFiber extends Fibers {
  //declarations
 //getter
 //setter

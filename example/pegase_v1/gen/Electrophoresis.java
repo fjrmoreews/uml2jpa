@@ -15,7 +15,7 @@ import uml2rdf.utils.*;
  //120 ==TEST_HERE== TEST_A_TEST
 	
 @Namespace("http://inra/pegase#")
-public class Electrophoresis extends CapillaryElectrophoresis {
+public class Electrophoresis extends GeneralAnalysis {
  //declarations
 //getter
 //setter
