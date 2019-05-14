@@ -1,0 +1,28 @@
+
+pre {
+
+ if(test1){
+   var kw ="ZZ";
+ }
+  
+   var tt=testtool;
+ 
+   var futils=formatutils;
+}
+rule Class2JavaFile
+
+  transform aClass : Class {
+      template: "codegen.egl"
+      target : "gen/" + aClass.name.firstToUpperCase() + ".java"
+       parameters {
+		    // These parameters will be made available
+		    // to the invoked template as variables
+		     var params : new Map;
+		     params.put("zz","120");
+		     params.put("futils",futils);
+		     params.put("tt",tt);
+		    return params;
+  }
+  
+  
+  } 

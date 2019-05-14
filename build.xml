@@ -13,7 +13,11 @@
     <property name="source" value="1.8"/>
               	 	
     <property name="dir.buildfile" value="."/>
-
+	
+	<property name="myjargenerator" value="generator.uml.jpa.jar"/>
+	<property name="dir.root" value="./"/> 
+	
+	 <property name="mygenpegasev1jar" value="example/pegase_v1/model.gen.pegase_v1.jar"/>
     <property name="mygentest1jar" value="example/test1/model.gen.test1.jar"/>
     <property name="mygentest3jar" value="example/test3/model.gen.test3.jar"/>
     <property name="mygentest4jar" value="example/test4/model.gen.test4.jar"/>
@@ -48,6 +52,7 @@
         <pathelement location="lib/ecore2xml-2.3.0-v200706262000.jar"/>
         <pathelement location="lib/epsilon-uml-1.4.0.jar"/>
         <pathelement location="lib/args4j-2.33.jar"/>
+    	
     </path>
               	      	
     <path id="gen.classpath"> <!-- this jar are used to generate the output-file.jar of the uml2jpa project -->
@@ -58,6 +63,36 @@
     	<pathelement location="example/libgen/xref_util.jar" />
     </path>               	
 
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target depends="init" name="build-project">
+        <echo message="build-project: ${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="xmi.classpath"/>
+        </javac>
+    </target>
+	  <target name="create_generator_jar" depends="build-project">
+	  <echo >
+	  going to create ${dir.root}/${myjargenerator}
+	  </echo>
+	                    <jar destfile="${dir.root}/${myjargenerator}" filesetmanifest="mergewithoutmain">
+	                        <manifest>
+	                            <attribute name="Main-Class" value="generator.GenerateJPAapp"/>
+	                            <attribute name="Class-Path" value="."/>
+	                        </manifest>
+	                        <fileset dir="${dir.root}/bin"/>
+	                        
+	                    </jar>
+	</target>
+	
 	<!-- adds Eclipse .jar to ant --> 
     <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
         <copy todir="${ant.library.dir}">
@@ -75,6 +110,47 @@
         <antcall target="all"/>
     </target>
     
+	
+	<target name="create_gen_pegase_v1_jar"> 
+		
+			<echo >
+	     		going to generate   ${mygenpegasev1jar}
+			</echo>
+		<delete file="${mygenpegasev1jar}" />
+		
+		
+		<mkdir dir="example/pegase_v1/bin"/>
+		<exec executable="rm" >
+					  <arg line=" -f example/pegase_v1/bin/*" />
+					</exec>
+		<exec executable="rm" >
+						  <arg line=" -f example/pegase_v1/gen/*" />
+						</exec>
+		<exec executable="bash" >
+				  <arg line="generate_PEGASE_V1.sh" />
+				</exec>
+		<exec executable="ls" >
+			  <arg line="-Rl example/pegase_v1/gen/" />
+			</exec>
+			
+		
+			<javac  debug="true" debuglevel="${debuglevel}" 
+				destdir="example/pegase_v1/bin/" 
+				includeantruntime="false" 
+				source="${source}" target="${target}">
+				<src path="example/pegase_v1/gen/"/> 
+				<classpath refid="xmi.classpath"/> 
+				<classpath refid="gen.classpath"/>
+			</javac>
+		
+		<exec executable="ls" >
+		  <arg line="-Rl example/pegase_v1/bin/" />
+		</exec>
+			<jar destfile="${mygenpegasev1jar}" filesetmanifest="mergewithoutmain">
+		        <fileset dir="example/pegase_v1/bin"/>
+	        </jar>
+		</target>
+	
 	<!-- create a file.class with file.java and create a jar file in test1 and archive file.class inside-->
 	<target name="create_gen_test1_jar"> <!--  some trouble with redondance -->
 		<echo >
