@@ -1,1277 +1,1289 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_2bK1YHZbEemOBr3MFsJDYg" name="project1_test">
-  <eAnnotations xmi:id="_2bK1YXZbEemOBr3MFsJDYg" source="Objing">
-    <contents xmi:type="uml:Property" xmi:id="_2bK1YnZbEemOBr3MFsJDYg" name="exporterVersion">
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_2bK1Y3ZbEemOBr3MFsJDYg" value="3.0.0"/>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_s_RvIHfOEemKR73gi6jJqA" name="project1_test">
+  <eAnnotations xmi:id="_s_RvIXfOEemKR73gi6jJqA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_s_RvInfOEemKR73gi6jJqA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_s_RvI3fOEemKR73gi6jJqA" value="3.0.0"/>
     </contents>
   </eAnnotations>
-  <ownedRule xmi:id="_2bK1ZHZbEemOBr3MFsJDYg" constrainedElement="_2bQVR3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1ZXZbEemOBr3MFsJDYg" value="min=1"/>
+  <ownedRule xmi:id="_s_RvJHfOEemKR73gi6jJqA" constrainedElement="_s_RwFHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvJXfOEemKR73gi6jJqA" value="min=1"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1ZnZbEemOBr3MFsJDYg" constrainedElement="_2bQVVHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1Z3ZbEemOBr3MFsJDYg" value="has unit: minutes"/>
+  <ownedRule xmi:id="_s_RvJnfOEemKR73gi6jJqA" constrainedElement="_s_RwIXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvJ3fOEemKR73gi6jJqA" value="has unit: minutes"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1aHZbEemOBr3MFsJDYg" constrainedElement="_2bQVVnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1aXZbEemOBr3MFsJDYg" value="has unit: celsius"/>
+  <ownedRule xmi:id="_s_RvKHfOEemKR73gi6jJqA" constrainedElement="_s_RwI3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvKXfOEemKR73gi6jJqA" value="has unit: celsius"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1anZbEemOBr3MFsJDYg" constrainedElement="_2bQVWHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1a3ZbEemOBr3MFsJDYg" value="has unit: "/>
+  <ownedRule xmi:id="_s_RvKnfOEemKR73gi6jJqA" constrainedElement="_s_RwJXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvK3fOEemKR73gi6jJqA" value="has unit: "/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1bHZbEemOBr3MFsJDYg" constrainedElement="_2bQVXXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1bXZbEemOBr3MFsJDYg" value="&lt;Enter constraint text here>"/>
+  <ownedRule xmi:id="_s_RvLHfOEemKR73gi6jJqA" constrainedElement="_s_RwKnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvLXfOEemKR73gi6jJqA" value="&lt;Enter constraint text here>"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1bnZbEemOBr3MFsJDYg" constrainedElement="_2bQVYnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1b3ZbEemOBr3MFsJDYg" value="has unit: Joules&#xA;>0"/>
+  <ownedRule xmi:id="_s_RvLnfOEemKR73gi6jJqA" constrainedElement="_s_RwL3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvL3fOEemKR73gi6jJqA" value="has unit: Joules&#xA;>0"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1cHZbEemOBr3MFsJDYg" constrainedElement="_2bQVZ3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1cXZbEemOBr3MFsJDYg" value="has unit: ng/µL&#xA;"/>
+  <ownedRule xmi:id="_s_RvMHfOEemKR73gi6jJqA" constrainedElement="_s_RwNHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvMXfOEemKR73gi6jJqA" value="has unit: ng/µL&#xA;"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1cnZbEemOBr3MFsJDYg" constrainedElement="_2bQVb3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1c3ZbEemOBr3MFsJDYg" value=">0"/>
+  <ownedRule xmi:id="_s_RvMnfOEemKR73gi6jJqA" constrainedElement="_s_RwPXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvM3fOEemKR73gi6jJqA" value=">0"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1dHZbEemOBr3MFsJDYg" constrainedElement="_2bQVcXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1dXZbEemOBr3MFsJDYg" value="min=0&#xA;max=100"/>
+  <ownedRule xmi:id="_s_RvNHfOEemKR73gi6jJqA" constrainedElement="_s_RwP3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvNXfOEemKR73gi6jJqA" value="min=0&#xA;max=100"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1dnZbEemOBr3MFsJDYg" constrainedElement="_2bQVc3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1d3ZbEemOBr3MFsJDYg" value="min=-120&#xA;max=120"/>
+  <ownedRule xmi:id="_s_RvNnfOEemKR73gi6jJqA" constrainedElement="_s_RwQXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvN3fOEemKR73gi6jJqA" value="min=-120&#xA;max=120"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1eHZbEemOBr3MFsJDYg" constrainedElement="_2bQVdXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1eXZbEemOBr3MFsJDYg" value="min=-120&#xA;max=120"/>
+  <ownedRule xmi:id="_s_RvOHfOEemKR73gi6jJqA" constrainedElement="_s_RwQ3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvOXfOEemKR73gi6jJqA" value="min=-120&#xA;max=120"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1enZbEemOBr3MFsJDYg" constrainedElement="_2bQVd3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1e3ZbEemOBr3MFsJDYg" value="has unit: minutes"/>
+  <ownedRule xmi:id="_s_RvOnfOEemKR73gi6jJqA" constrainedElement="_s_RwRXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvO3fOEemKR73gi6jJqA" value="has unit: minutes"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1fHZbEemOBr3MFsJDYg" constrainedElement="_2bQVe3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1fXZbEemOBr3MFsJDYg" value="has unit: µL or mg&#xA;"/>
+  <ownedRule xmi:id="_s_RvPHfOEemKR73gi6jJqA" constrainedElement="_s_RwSXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvPXfOEemKR73gi6jJqA" value="has unit: µL or mg&#xA;"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1fnZbEemOBr3MFsJDYg" constrainedElement="_2bQVgXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1f3ZbEemOBr3MFsJDYg" value="has unit: bp"/>
+  <ownedRule xmi:id="_s_RvPnfOEemKR73gi6jJqA" constrainedElement="_s_SWMXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvP3fOEemKR73gi6jJqA" value="has unit: bp"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1gHZbEemOBr3MFsJDYg" constrainedElement="_2bQVhXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1gXZbEemOBr3MFsJDYg" value="has unit: minutes"/>
+  <ownedRule xmi:id="_s_RvQHfOEemKR73gi6jJqA" constrainedElement="_s_SWNXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvQXfOEemKR73gi6jJqA" value="has unit: minutes"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1gnZbEemOBr3MFsJDYg" constrainedElement="_2bQVh3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1g3ZbEemOBr3MFsJDYg" value="has unit: celsius"/>
+  <ownedRule xmi:id="_s_RvQnfOEemKR73gi6jJqA" constrainedElement="_s_SWN3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvQ3fOEemKR73gi6jJqA" value="has unit: celsius"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1hHZbEemOBr3MFsJDYg" constrainedElement="_2bQVi3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1hXZbEemOBr3MFsJDYg" value="has unit: mL&#xA;>0"/>
+  <ownedRule xmi:id="_s_RvRHfOEemKR73gi6jJqA" constrainedElement="_s_SWO3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvRXfOEemKR73gi6jJqA" value="has unit: mL&#xA;>0"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1hnZbEemOBr3MFsJDYg" constrainedElement="_2bQVj3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1h3ZbEemOBr3MFsJDYg" value="has unit: mg&#xA;>0"/>
+  <ownedRule xmi:id="_s_RvRnfOEemKR73gi6jJqA" constrainedElement="_s_SWP3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvR3fOEemKR73gi6jJqA" value="has unit: mg&#xA;>0"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1iHZbEemOBr3MFsJDYg" constrainedElement="_2bQVk3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1iXZbEemOBr3MFsJDYg" value="has unit: celsius"/>
+  <ownedRule xmi:id="_s_RvSHfOEemKR73gi6jJqA" constrainedElement="_s_SWQ3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvSXfOEemKR73gi6jJqA" value="has unit: celsius"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1inZbEemOBr3MFsJDYg" constrainedElement="_2bQVlXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1i3ZbEemOBr3MFsJDYg" value="has unit: minutes"/>
+  <ownedRule xmi:id="_s_RvSnfOEemKR73gi6jJqA" constrainedElement="_s_SWRXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvS3fOEemKR73gi6jJqA" value="has unit: minutes"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1jHZbEemOBr3MFsJDYg" constrainedElement="_2bQVmXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1jXZbEemOBr3MFsJDYg" value="has unit: celsius"/>
+  <ownedRule xmi:id="_s_RvTHfOEemKR73gi6jJqA" constrainedElement="_s_SWSXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvTXfOEemKR73gi6jJqA" value="has unit: celsius"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1jnZbEemOBr3MFsJDYg" constrainedElement="_2bQVm3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1j3ZbEemOBr3MFsJDYg" value="has unit: hours"/>
+  <ownedRule xmi:id="_s_RvTnfOEemKR73gi6jJqA" constrainedElement="_s_SWS3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvT3fOEemKR73gi6jJqA" value="has unit: hours"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1kHZbEemOBr3MFsJDYg" constrainedElement="_2bQVpnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1kXZbEemOBr3MFsJDYg" value="&lt;Enter constraint text here>"/>
+  <ownedRule xmi:id="_s_RvUHfOEemKR73gi6jJqA" constrainedElement="_s_SWVnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvUXfOEemKR73gi6jJqA" value="&lt;Enter constraint text here>"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1knZbEemOBr3MFsJDYg" constrainedElement="_2bQVpnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1k3ZbEemOBr3MFsJDYg" value="has unit: mmol/L or mg/L or µmol/L or g/L"/>
+  <ownedRule xmi:id="_s_RvUnfOEemKR73gi6jJqA" constrainedElement="_s_SWVnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvU3fOEemKR73gi6jJqA" value="has unit: mmol/L or mg/L or µmol/L or g/L"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1lHZbEemOBr3MFsJDYg" constrainedElement="_2bQVrXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1lXZbEemOBr3MFsJDYg" value="has unit: L/mol/cm"/>
+  <ownedRule xmi:id="_s_RvVHfOEemKR73gi6jJqA" constrainedElement="_s_SWXXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvVXfOEemKR73gi6jJqA" value="has unit: L/mol/cm"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1lnZbEemOBr3MFsJDYg" constrainedElement="_2bQVxHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1l3ZbEemOBr3MFsJDYg" value="has unit : µg"/>
+  <ownedRule xmi:id="_s_RvVnfOEemKR73gi6jJqA" constrainedElement="_s_SWdHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvV3fOEemKR73gi6jJqA" value="has unit : µg"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1mHZbEemOBr3MFsJDYg" constrainedElement="_2bQ8CnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1mXZbEemOBr3MFsJDYg" value="has unit: mg&#xA;min>0"/>
+  <ownedRule xmi:id="_s_RvWHfOEemKR73gi6jJqA" constrainedElement="_s_SWeXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvWXfOEemKR73gi6jJqA" value="Ordered(index=3)"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1mnZbEemOBr3MFsJDYg" constrainedElement="_2bQ8DHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1m3ZbEemOBr3MFsJDYg" value="has unit: mg&#xA;"/>
+  <ownedRule xmi:id="_s_RvWnfOEemKR73gi6jJqA" constrainedElement="_s_SWhHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvW3fOEemKR73gi6jJqA" value="Ordered(index=1)"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1nHZbEemOBr3MFsJDYg" constrainedElement="_2bQ8EnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1nXZbEemOBr3MFsJDYg" value="has unit: µm²"/>
+  <ownedRule xmi:id="_s_RvXHfOEemKR73gi6jJqA" constrainedElement="_s_SWhnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvXXfOEemKR73gi6jJqA" value="Ordered(index=2)"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1nnZbEemOBr3MFsJDYg" constrainedElement="_2bQ8FHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1n3ZbEemOBr3MFsJDYg" value="has unit: µm²"/>
+  <ownedRule xmi:id="_s_RvXnfOEemKR73gi6jJqA" constrainedElement="_s_SWjHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvX3fOEemKR73gi6jJqA" value="has unit: mg&#xA;min>0"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1oHZbEemOBr3MFsJDYg" constrainedElement="_2bQ8FnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1oXZbEemOBr3MFsJDYg" value="has unit: µm²"/>
+  <ownedRule xmi:id="_s_RvYHfOEemKR73gi6jJqA" constrainedElement="_s_SWjnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvYXfOEemKR73gi6jJqA" value="has unit: mg&#xA;"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1onZbEemOBr3MFsJDYg" constrainedElement="_2bQ8GHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1o3ZbEemOBr3MFsJDYg" value="has unit: µm²"/>
+  <ownedRule xmi:id="_s_RvYnfOEemKR73gi6jJqA" constrainedElement="_s_SWlHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvY3fOEemKR73gi6jJqA" value="has unit: µm²"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1pHZbEemOBr3MFsJDYg" constrainedElement="_2bQ8HXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1pXZbEemOBr3MFsJDYg" value="has unit: µm"/>
+  <ownedRule xmi:id="_s_RvZHfOEemKR73gi6jJqA" constrainedElement="_s_SWlnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvZXfOEemKR73gi6jJqA" value="has unit: µm²"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1pnZbEemOBr3MFsJDYg" constrainedElement="_2bQ8IHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1p3ZbEemOBr3MFsJDYg" value="has unit: pixel/µm"/>
+  <ownedRule xmi:id="_s_RvZnfOEemKR73gi6jJqA" constrainedElement="_s_SWmHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvZ3fOEemKR73gi6jJqA" value="has unit: µm²"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1qHZbEemOBr3MFsJDYg" constrainedElement="_2bQ8J3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1qXZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvaHfOEemKR73gi6jJqA" constrainedElement="_s_SWmnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvaXfOEemKR73gi6jJqA" value="has unit: µm²"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1qnZbEemOBr3MFsJDYg" constrainedElement="_2bQ8KXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1q3ZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvanfOEemKR73gi6jJqA" constrainedElement="_s_SWoHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rva3fOEemKR73gi6jJqA" value="has unit: µm"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1rHZbEemOBr3MFsJDYg" constrainedElement="_2bQ8K3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1rXZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvbHfOEemKR73gi6jJqA" constrainedElement="_s_SWo3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvbXfOEemKR73gi6jJqA" value="has unit: pixel/µm"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1rnZbEemOBr3MFsJDYg" constrainedElement="_2bQ8LXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bK1r3ZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvbnfOEemKR73gi6jJqA" constrainedElement="_s_SWqnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvb3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bK1sHZbEemOBr3MFsJDYg" constrainedElement="_2bQ8L3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLccHZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvcHfOEemKR73gi6jJqA" constrainedElement="_s_SWrHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvcXfOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLccXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8MXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLccnZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvcnfOEemKR73gi6jJqA" constrainedElement="_s_SWrnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvc3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcc3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8M3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcdHZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvdHfOEemKR73gi6jJqA" constrainedElement="_s_SWsHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvdXfOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcdXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8NXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcdnZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvdnfOEemKR73gi6jJqA" constrainedElement="_s_SWsnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvd3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcd3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8N3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLceHZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RveHfOEemKR73gi6jJqA" constrainedElement="_s_SWtHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RveXfOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLceXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8OXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcenZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvenfOEemKR73gi6jJqA" constrainedElement="_s_SWtnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rve3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLce3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8O3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcfHZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvfHfOEemKR73gi6jJqA" constrainedElement="_s_SWuHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvfXfOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcfXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8PXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcfnZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvfnfOEemKR73gi6jJqA" constrainedElement="_s_SWunfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvf3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcf3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8P3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcgHZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvgHfOEemKR73gi6jJqA" constrainedElement="_s_SWvHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvgXfOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcgXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8QXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcgnZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvgnfOEemKR73gi6jJqA" constrainedElement="_s_SWvnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvg3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcg3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8Q3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLchHZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvhHfOEemKR73gi6jJqA" constrainedElement="_s_SWwHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvhXfOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLchXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8RXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLchnZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvhnfOEemKR73gi6jJqA" constrainedElement="_s_SWwnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvh3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLch3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8R3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLciHZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RviHfOEemKR73gi6jJqA" constrainedElement="_s_SWxHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RviXfOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLciXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8SXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcinZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvinfOEemKR73gi6jJqA" constrainedElement="_s_SWxnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvi3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLci3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8S3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcjHZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvjHfOEemKR73gi6jJqA" constrainedElement="_s_SWyHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvjXfOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcjXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8TXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcjnZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvjnfOEemKR73gi6jJqA" constrainedElement="_s_SWynfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvj3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcj3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8T3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLckHZbEemOBr3MFsJDYg" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvkHfOEemKR73gi6jJqA" constrainedElement="_s_SWzHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvkXfOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLckXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8WnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcknZbEemOBr3MFsJDYg" value="nullable : NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvknfOEemKR73gi6jJqA" constrainedElement="_s_SWznfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvk3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLck3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8XHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLclHZbEemOBr3MFsJDYg" value="nullable : NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvlHfOEemKR73gi6jJqA" constrainedElement="_s_SW0HfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvlXfOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLclXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8XnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLclnZbEemOBr3MFsJDYg" value="nullable : NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvlnfOEemKR73gi6jJqA" constrainedElement="_s_SW0nfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvl3fOEemKR73gi6jJqA" value="has unit: g/100g&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcl3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8YnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcmHZbEemOBr3MFsJDYg" value="nullable : NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvmHfOEemKR73gi6jJqA" constrainedElement="_s_SW23fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvmXfOEemKR73gi6jJqA" value="nullable : NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcmXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8ZHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcmnZbEemOBr3MFsJDYg" value="nullable : NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvmnfOEemKR73gi6jJqA" constrainedElement="_s_SW3XfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvm3fOEemKR73gi6jJqA" value="nullable : NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcm3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8ZnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcnHZbEemOBr3MFsJDYg" value="nullable : NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvnHfOEemKR73gi6jJqA" constrainedElement="_s_SW33fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvnXfOEemKR73gi6jJqA" value="nullable : NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcnXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8aHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcnnZbEemOBr3MFsJDYg" value="nullable : NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvnnfOEemKR73gi6jJqA" constrainedElement="_s_SW43fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvn3fOEemKR73gi6jJqA" value="nullable : NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcn3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8anZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcoHZbEemOBr3MFsJDYg" value="nullable : NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvoHfOEemKR73gi6jJqA" constrainedElement="_s_SW5XfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvoXfOEemKR73gi6jJqA" value="nullable : NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcoXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8bHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLconZbEemOBr3MFsJDYg" value="nullable : NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvonfOEemKR73gi6jJqA" constrainedElement="_s_SW53fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvo3fOEemKR73gi6jJqA" value="nullable : NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLco3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8dXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcpHZbEemOBr3MFsJDYg" value="has unit: celsius"/>
+  <ownedRule xmi:id="_s_RvpHfOEemKR73gi6jJqA" constrainedElement="_s_SW6XfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvpXfOEemKR73gi6jJqA" value="nullable : NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcpXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8h3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcpnZbEemOBr3MFsJDYg" value="has unit: kb&#xA;"/>
+  <ownedRule xmi:id="_s_RvpnfOEemKR73gi6jJqA" constrainedElement="_s_SW63fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvp3fOEemKR73gi6jJqA" value="nullable : NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcp3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8iXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcqHZbEemOBr3MFsJDYg" value="has unit : µg"/>
+  <ownedRule xmi:id="_s_RvqHfOEemKR73gi6jJqA" constrainedElement="_s_SW7XfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvqXfOEemKR73gi6jJqA" value="nullable : NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcqXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8kHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcqnZbEemOBr3MFsJDYg" value="has unit: mL or mg"/>
+  <ownedRule xmi:id="_s_RvqnfOEemKR73gi6jJqA" constrainedElement="_s_SW9nfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvq3fOEemKR73gi6jJqA" value="has unit: celsius"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcq3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8knZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcrHZbEemOBr3MFsJDYg" value="has unit: minutes or hours"/>
+  <ownedRule xmi:id="_s_RvrHfOEemKR73gi6jJqA" constrainedElement="_s_SXCHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvrXfOEemKR73gi6jJqA" value="has unit: kb&#xA;"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcrXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8nnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcrnZbEemOBr3MFsJDYg" value="has unit: bp"/>
+  <ownedRule xmi:id="_s_RvrnfOEemKR73gi6jJqA" constrainedElement="_s_SXCnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvr3fOEemKR73gi6jJqA" value="has unit : µg"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcr3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8o3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcsHZbEemOBr3MFsJDYg" value="&lt;Enter constraint text here>"/>
+  <ownedRule xmi:id="_s_RvsHfOEemKR73gi6jJqA" constrainedElement="_s_SXEXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvsXfOEemKR73gi6jJqA" value="has unit: mL or mg"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcsXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8o3ZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLcsnZbEemOBr3MFsJDYg" value="has unit: mmol/L or mg/L or µmol/L or g/L"/>
+  <ownedRule xmi:id="_s_RvsnfOEemKR73gi6jJqA" constrainedElement="_s_SXE3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvs3fOEemKR73gi6jJqA" value="has unit: minutes or hours"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLcs3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8qXZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bLctHZbEemOBr3MFsJDYg" value="&lt;Enter constraint text here>"/>
+  <ownedRule xmi:id="_s_RvtHfOEemKR73gi6jJqA" constrainedElement="_s_SXH3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvtXfOEemKR73gi6jJqA" value="has unit: bp"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bLctXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8tHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQU8HZbEemOBr3MFsJDYg" value="has unit: mL or mg"/>
+  <ownedRule xmi:id="_s_RvtnfOEemKR73gi6jJqA" constrainedElement="_s_SXJHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvt3fOEemKR73gi6jJqA" value="&lt;Enter constraint text here>"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQU8XZbEemOBr3MFsJDYg" constrainedElement="_2bQ8tnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQU8nZbEemOBr3MFsJDYg" value="has unit: nm"/>
+  <ownedRule xmi:id="_s_RvuHfOEemKR73gi6jJqA" constrainedElement="_s_SXJHfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvuXfOEemKR73gi6jJqA" value="has unit: mmol/L or mg/L or µmol/L or g/L"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQU83ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8vnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQU9HZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvunfOEemKR73gi6jJqA" constrainedElement="_s_SXKnfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvu3fOEemKR73gi6jJqA" value="&lt;Enter constraint text here>"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQU9XZbEemOBr3MFsJDYg" constrainedElement="_2bQ8wHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQU9nZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvvHfOEemKR73gi6jJqA" constrainedElement="_s_SXNXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvvXfOEemKR73gi6jJqA" value="has unit: mL or mg"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQU93ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8wnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQU-HZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvvnfOEemKR73gi6jJqA" constrainedElement="_s_SXN3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvv3fOEemKR73gi6jJqA" value="has unit: nm"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQU-XZbEemOBr3MFsJDYg" constrainedElement="_2bQ8xHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQU-nZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvwHfOEemKR73gi6jJqA" constrainedElement="_s_SXP3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvwXfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQU-3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8xnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQU_HZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvwnfOEemKR73gi6jJqA" constrainedElement="_s_SXQXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvw3fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQU_XZbEemOBr3MFsJDYg" constrainedElement="_2bQ8yHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQU_nZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvxHfOEemKR73gi6jJqA" constrainedElement="_s_SXQ3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvxXfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQU_3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8ynZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVAHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvxnfOEemKR73gi6jJqA" constrainedElement="_s_SXRXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvx3fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVAXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8zHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVAnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvyHfOEemKR73gi6jJqA" constrainedElement="_s_SXR3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvyXfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVA3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8znZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVBHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvynfOEemKR73gi6jJqA" constrainedElement="_s_SXSXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvy3fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVBXZbEemOBr3MFsJDYg" constrainedElement="_2bQ80HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVBnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvzHfOEemKR73gi6jJqA" constrainedElement="_s_SXS3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RvzXfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVB3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ80nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVCHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RvznfOEemKR73gi6jJqA" constrainedElement="_s_SXTXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rvz3fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVCXZbEemOBr3MFsJDYg" constrainedElement="_2bQ81HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVCnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv0HfOEemKR73gi6jJqA" constrainedElement="_s_SXT3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv0XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVC3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ81nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVDHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv0nfOEemKR73gi6jJqA" constrainedElement="_s_SXUXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv03fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVDXZbEemOBr3MFsJDYg" constrainedElement="_2bQ82HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVDnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv1HfOEemKR73gi6jJqA" constrainedElement="_s_SXU3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv1XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVD3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ82nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVEHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv1nfOEemKR73gi6jJqA" constrainedElement="_s_SXVXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv13fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVEXZbEemOBr3MFsJDYg" constrainedElement="_2bQ83HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVEnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv2HfOEemKR73gi6jJqA" constrainedElement="_s_SXV3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv2XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVE3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ83nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVFHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv2nfOEemKR73gi6jJqA" constrainedElement="_s_SXWXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv23fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVFXZbEemOBr3MFsJDYg" constrainedElement="_2bQ84HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVFnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv3HfOEemKR73gi6jJqA" constrainedElement="_s_SXW3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv3XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVF3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ84nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVGHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv3nfOEemKR73gi6jJqA" constrainedElement="_s_SXXXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv33fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVGXZbEemOBr3MFsJDYg" constrainedElement="_2bQ85HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVGnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv4HfOEemKR73gi6jJqA" constrainedElement="_s_SXX3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv4XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVG3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ85nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVHHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv4nfOEemKR73gi6jJqA" constrainedElement="_s_SXYXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv43fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVHXZbEemOBr3MFsJDYg" constrainedElement="_2bQ86HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVHnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv5HfOEemKR73gi6jJqA" constrainedElement="_s_SXY3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv5XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVH3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ86nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVIHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv5nfOEemKR73gi6jJqA" constrainedElement="_s_SXZXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv53fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVIXZbEemOBr3MFsJDYg" constrainedElement="_2bQ87HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVInZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv6HfOEemKR73gi6jJqA" constrainedElement="_s_SXZ3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv6XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVI3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ87nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVJHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv6nfOEemKR73gi6jJqA" constrainedElement="_s_SXaXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv63fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVJXZbEemOBr3MFsJDYg" constrainedElement="_2bQ88HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVJnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv7HfOEemKR73gi6jJqA" constrainedElement="_s_SXa3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv7XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVJ3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ88nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVKHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv7nfOEemKR73gi6jJqA" constrainedElement="_s_SXbXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv73fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVKXZbEemOBr3MFsJDYg" constrainedElement="_2bQ89HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVKnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv8HfOEemKR73gi6jJqA" constrainedElement="_s_SXb3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv8XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVK3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ89nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVLHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv8nfOEemKR73gi6jJqA" constrainedElement="_s_SXcXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv83fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVLXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8-HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVLnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv9HfOEemKR73gi6jJqA" constrainedElement="_s_SXc3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv9XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVL3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8-nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVMHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv9nfOEemKR73gi6jJqA" constrainedElement="_s_SXdXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv93fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVMXZbEemOBr3MFsJDYg" constrainedElement="_2bQ8_HZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVMnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv-HfOEemKR73gi6jJqA" constrainedElement="_s_SXd3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv-XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVM3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ8_nZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVNHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv-nfOEemKR73gi6jJqA" constrainedElement="_s_SXeXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv-3fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVNXZbEemOBr3MFsJDYg" constrainedElement="_2bQ9AHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVNnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv_HfOEemKR73gi6jJqA" constrainedElement="_s_S9QXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv_XfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVN3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ9AnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVOHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_Rv_nfOEemKR73gi6jJqA" constrainedElement="_s_S9Q3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_Rv_3fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVOXZbEemOBr3MFsJDYg" constrainedElement="_2bQ9BHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVOnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RwAHfOEemKR73gi6jJqA" constrainedElement="_s_S9RXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RwAXfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVO3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ9BnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVPHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RwAnfOEemKR73gi6jJqA" constrainedElement="_s_S9R3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RwA3fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVPXZbEemOBr3MFsJDYg" constrainedElement="_2bQ9CHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVPnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RwBHfOEemKR73gi6jJqA" constrainedElement="_s_S9SXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RwBXfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVP3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ9CnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVQHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RwBnfOEemKR73gi6jJqA" constrainedElement="_s_S9S3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RwB3fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVQXZbEemOBr3MFsJDYg" constrainedElement="_2bQ9DHZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVQnZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RwCHfOEemKR73gi6jJqA" constrainedElement="_s_S9TXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RwCXfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <ownedRule xmi:id="_2bQVQ3ZbEemOBr3MFsJDYg" constrainedElement="_2bQ9DnZbEemOBr3MFsJDYg">
-    <specification xmi:type="uml:LiteralString" xmi:id="_2bQVRHZbEemOBr3MFsJDYg" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  <ownedRule xmi:id="_s_RwCnfOEemKR73gi6jJqA" constrainedElement="_s_S9T3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RwC3fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
   </ownedRule>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVRXZbEemOBr3MFsJDYg" name="twoDGelElectrophoresis">
-    <generalization xmi:id="_2bQVRnZbEemOBr3MFsJDYg" general="_2bQVvXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVR3ZbEemOBr3MFsJDYg" name="stripIdentification" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVSHZbEemOBr3MFsJDYg" source="Objing"/>
+  <ownedRule xmi:id="_s_RwDHfOEemKR73gi6jJqA" constrainedElement="_s_S9UXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RwDXfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  </ownedRule>
+  <ownedRule xmi:id="_s_RwDnfOEemKR73gi6jJqA" constrainedElement="_s_S9U3fOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RwD3fOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  </ownedRule>
+  <ownedRule xmi:id="_s_RwEHfOEemKR73gi6jJqA" constrainedElement="_s_S9VXfOEemKR73gi6jJqA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_s_RwEXfOEemKR73gi6jJqA" value="has unit: µmole/ml&#xA;min>0&#xA;nullable: NA, LD, LQ"/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_RwEnfOEemKR73gi6jJqA" name="twoDGelElectrophoresis">
+    <generalization xmi:id="_s_RwE3fOEemKR73gi6jJqA" general="_s_SWbXfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_RwFHfOEemKR73gi6jJqA" name="stripIdentification" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwFXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVSXZbEemOBr3MFsJDYg" name="scanIdentification" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_RwFnfOEemKR73gi6jJqA" name="scanIdentification" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVSnZbEemOBr3MFsJDYg" name="gelIdentification" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_RwF3fOEemKR73gi6jJqA" name="gelIdentification" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVS3ZbEemOBr3MFsJDYg" name="proteinExtractionProcedure" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_RwGHfOEemKR73gi6jJqA" name="proteinExtractionProcedure" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVTHZbEemOBr3MFsJDYg" name="imageResolution" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_RwGXfOEemKR73gi6jJqA" name="imageResolution" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVTXZbEemOBr3MFsJDYg" name="result" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_2bQVTnZbEemOBr3MFsJDYg">
+    <ownedAttribute xmi:id="_s_RwGnfOEemKR73gi6jJqA" name="result" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_s_RwG3fOEemKR73gi6jJqA">
         <body>unité ??</body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVT3ZbEemOBr3MFsJDYg" name="staining" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_RwHHfOEemKR73gi6jJqA" name="staining" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVUHZbEemOBr3MFsJDYg" name="behavior">
-    <generalization xmi:id="_2bQVUXZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_RwHXfOEemKR73gi6jJqA" name="behavior">
+    <generalization xmi:id="_s_RwHnfOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVUnZbEemOBr3MFsJDYg" name="bloodGases">
-    <generalization xmi:id="_2bQVU3ZbEemOBr3MFsJDYg" general="_2bQVnnZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVVHZbEemOBr3MFsJDYg" name="waitingTime" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVVXZbEemOBr3MFsJDYg" source="Objing"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_RwH3fOEemKR73gi6jJqA" name="bloodGases">
+    <generalization xmi:id="_s_RwIHfOEemKR73gi6jJqA" general="_s_SWTnfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_RwIXfOEemKR73gi6jJqA" name="waitingTime" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwInfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVVnZbEemOBr3MFsJDYg" name="temperature" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVV3ZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_RwI3fOEemKR73gi6jJqA" name="temperature" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwJHfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVWHZbEemOBr3MFsJDYg" name="result" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVWXZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_RwJXfOEemKR73gi6jJqA" name="result" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwJnfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVWnZbEemOBr3MFsJDYg" name="calorimetry">
-    <ownedComment xmi:id="_2bQVW3ZbEemOBr3MFsJDYg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_RwJ3fOEemKR73gi6jJqA" name="calorimetry">
+    <ownedComment xmi:id="_s_RwKHfOEemKR73gi6jJqA">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <generalization xmi:id="_2bQVXHZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVXXZbEemOBr3MFsJDYg" name="bombIdentity" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVXnZbEemOBr3MFsJDYg" source="Objing"/>
+    <generalization xmi:id="_s_RwKXfOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_RwKnfOEemKR73gi6jJqA" name="bombIdentity" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwK3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVX3ZbEemOBr3MFsJDYg" name="crucibleType" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_RwLHfOEemKR73gi6jJqA" name="crucibleType" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVYHZbEemOBr3MFsJDYg" name="operatingMode" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_RwLXfOEemKR73gi6jJqA" name="operatingMode" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVYXZbEemOBr3MFsJDYg" name="kValue" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_RwLnfOEemKR73gi6jJqA" name="kValue" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVYnZbEemOBr3MFsJDYg" name="energy" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVY3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVZHZbEemOBr3MFsJDYg" name="capillaryElectrophoresis">
-    <generalization xmi:id="_2bQVZXZbEemOBr3MFsJDYg" general="_2bQVoHZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVZnZbEemOBr3MFsJDYg" name="arrayType" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVZ3ZbEemOBr3MFsJDYg" name="result" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVaHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_RwL3fOEemKR73gi6jJqA" name="energy" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwMHfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVaXZbEemOBr3MFsJDYg" name="cellMicroscopy">
-    <ownedAttribute xmi:id="_2bQVanZbEemOBr3MFsJDYg" name="dilutionFactor" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_2bQVa3ZbEemOBr3MFsJDYg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_RwMXfOEemKR73gi6jJqA" name="capillaryElectrophoresis">
+    <generalization xmi:id="_s_RwMnfOEemKR73gi6jJqA" general="_s_SWUHfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_RwM3fOEemKR73gi6jJqA" name="arrayType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_RwNHfOEemKR73gi6jJqA" name="result" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwNXfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_RwNnfOEemKR73gi6jJqA" name="cellMicroscopy">
+    <generalization xmi:id="_s_RwN3fOEemKR73gi6jJqA" general="_s_SW1HfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_RwOHfOEemKR73gi6jJqA" name="dilutionFactor" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_s_RwOXfOEemKR73gi6jJqA">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVbHZbEemOBr3MFsJDYg" name="livingCellCount" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_RwOnfOEemKR73gi6jJqA" name="livingCellCount" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVbXZbEemOBr3MFsJDYg" name="chromametry">
-    <generalization xmi:id="_2bQVbnZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVb3ZbEemOBr3MFsJDYg" name="numberMeasuringFields" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVcHZbEemOBr3MFsJDYg" source="Objing"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_RwO3fOEemKR73gi6jJqA" name="chromametry">
+    <generalization xmi:id="_s_RwPHfOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_RwPXfOEemKR73gi6jJqA" name="numberMeasuringFields" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwPnfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVcXZbEemOBr3MFsJDYg" name="L" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVcnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_RwP3fOEemKR73gi6jJqA" name="L" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwQHfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVc3ZbEemOBr3MFsJDYg" name="a" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVdHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_RwQXfOEemKR73gi6jJqA" name="a" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwQnfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVdXZbEemOBr3MFsJDYg" name="b" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVdnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_RwQ3fOEemKR73gi6jJqA" name="b" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwRHfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVd3ZbEemOBr3MFsJDYg" name="waitingTime" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVeHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_RwRXfOEemKR73gi6jJqA" name="waitingTime" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwRnfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVeXZbEemOBr3MFsJDYg" name="chromatography">
-    <generalization xmi:id="_2bQVenZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVe3ZbEemOBr3MFsJDYg" name="samplePortion" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVfHZbEemOBr3MFsJDYg" source="Objing"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_RwR3fOEemKR73gi6jJqA" name="chromatography">
+    <generalization xmi:id="_s_RwSHfOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_RwSXfOEemKR73gi6jJqA" name="samplePortion" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_RwSnfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVfXZbEemOBr3MFsJDYg" name="extractionType" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_RwS3fOEemKR73gi6jJqA" name="extractionType" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVfnZbEemOBr3MFsJDYg" name="classicPcr">
-    <generalization xmi:id="_2bQVf3ZbEemOBr3MFsJDYg" general="_2bQ8lXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVgHZbEemOBr3MFsJDYg" name="amplification" visibility="public" isUnique="false">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_RwTHfOEemKR73gi6jJqA" name="classicPcr">
+    <generalization xmi:id="_s_RwTXfOEemKR73gi6jJqA" general="_s_SXFnfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWMHfOEemKR73gi6jJqA" name="amplification" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVgXZbEemOBr3MFsJDYg" name="ampliconSize" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVgnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWMXfOEemKR73gi6jJqA" name="ampliconSize" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWMnfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVg3ZbEemOBr3MFsJDYg" name="cookingLoss">
-    <generalization xmi:id="_2bQVhHZbEemOBr3MFsJDYg" general="_2bQ8CHZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVhXZbEemOBr3MFsJDYg" name="cookingTime" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVhnZbEemOBr3MFsJDYg" source="Objing"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWM3fOEemKR73gi6jJqA" name="cookingLoss">
+    <generalization xmi:id="_s_SWNHfOEemKR73gi6jJqA" general="_s_SWinfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWNXfOEemKR73gi6jJqA" name="cookingTime" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWNnfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVh3ZbEemOBr3MFsJDYg" name="temperature" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQViHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWN3fOEemKR73gi6jJqA" name="temperature" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWOHfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQViXZbEemOBr3MFsJDYg" name="crudeLiquidEnergy">
-    <generalization xmi:id="_2bQVinZbEemOBr3MFsJDYg" general="_2bQVWnZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVi3ZbEemOBr3MFsJDYg" name="samplePortion" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVjHZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVjXZbEemOBr3MFsJDYg" name="crudeSolidEnergy">
-    <generalization xmi:id="_2bQVjnZbEemOBr3MFsJDYg" general="_2bQVWnZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVj3ZbEemOBr3MFsJDYg" name="samplePortion" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVkHZbEemOBr3MFsJDYg" source="Objing"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWOXfOEemKR73gi6jJqA" name="crudeLiquidEnergy">
+    <generalization xmi:id="_s_SWOnfOEemKR73gi6jJqA" general="_s_RwJ3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWO3fOEemKR73gi6jJqA" name="samplePortion" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWPHfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVkXZbEemOBr3MFsJDYg" name="dripLoss">
-    <generalization xmi:id="_2bQVknZbEemOBr3MFsJDYg" general="_2bQ8CHZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVk3ZbEemOBr3MFsJDYg" name="temperature" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVlHZbEemOBr3MFsJDYg" source="Objing"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWPXfOEemKR73gi6jJqA" name="crudeSolidEnergy">
+    <generalization xmi:id="_s_SWPnfOEemKR73gi6jJqA" general="_s_RwJ3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWP3fOEemKR73gi6jJqA" name="samplePortion" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWQHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWQXfOEemKR73gi6jJqA" name="dripLoss">
+    <generalization xmi:id="_s_SWQnfOEemKR73gi6jJqA" general="_s_SWinfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWQ3fOEemKR73gi6jJqA" name="temperature" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWRHfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVlXZbEemOBr3MFsJDYg" name="waitingTime" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVlnZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVl3ZbEemOBr3MFsJDYg" name="dryMatterOrMineralQuantification">
-    <generalization xmi:id="_2bQVmHZbEemOBr3MFsJDYg" general="_2bQ8CHZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVmXZbEemOBr3MFsJDYg" name="temperature" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVmnZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVm3ZbEemOBr3MFsJDYg" name="time" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVnHZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVnXZbEemOBr3MFsJDYg" name="temperatureCycle" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVnnZbEemOBr3MFsJDYg" name="electrochemicalMeasurement">
-    <generalization xmi:id="_2bQVn3ZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVoHZbEemOBr3MFsJDYg" name="electrophoresis">
-    <generalization xmi:id="_2bQVoXZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVonZbEemOBr3MFsJDYg" name="elisa">
-    <generalization xmi:id="_2bQVo3ZbEemOBr3MFsJDYg" general="_2bQ8sXZbEemOBr3MFsJDYg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVpHZbEemOBr3MFsJDYg" name="endPointAssay">
-    <generalization xmi:id="_2bQVpXZbEemOBr3MFsJDYg" general="_2bQVqXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVpnZbEemOBr3MFsJDYg" name="unit" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVp3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVqHZbEemOBr3MFsJDYg" name="measuredMetabolite" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVqXZbEemOBr3MFsJDYg" name="enzymaticActivity">
-    <generalization xmi:id="_2bQVqnZbEemOBr3MFsJDYg" general="_2bQ8sXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVq3ZbEemOBr3MFsJDYg" name="reagentBlankValue" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVrHZbEemOBr3MFsJDYg" name="sampleBlankValue" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVrXZbEemOBr3MFsJDYg" name="molarExtinctionCoefficient" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVrnZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVr3ZbEemOBr3MFsJDYg" name="result" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVsHZbEemOBr3MFsJDYg" name="fibers">
-    <generalization xmi:id="_2bQVsXZbEemOBr3MFsJDYg" general="_2bQ8CHZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVsnZbEemOBr3MFsJDYg" name="reagentLotNumber" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVs3ZbEemOBr3MFsJDYg" name="flowCytometry">
-    <generalization xmi:id="_2bQVtHZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVtXZbEemOBr3MFsJDYg" name="SSC" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVtnZbEemOBr3MFsJDYg" name="FSC" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVt3ZbEemOBr3MFsJDYg" name="particlesFilter" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVuHZbEemOBr3MFsJDYg" name="labelling" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVuXZbEemOBr3MFsJDYg" name="antibodyName" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVunZbEemOBr3MFsJDYg" name="resultCellCount" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWRXfOEemKR73gi6jJqA" name="waitingTime" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWRnfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVu3ZbEemOBr3MFsJDYg" name="gasChromatography">
-    <generalization xmi:id="_2bQVvHZbEemOBr3MFsJDYg" general="_2bQVeXZbEemOBr3MFsJDYg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVvXZbEemOBr3MFsJDYg" name="gelElectrophoresis">
-    <generalization xmi:id="_2bQVvnZbEemOBr3MFsJDYg" general="_2bQVoHZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQVv3ZbEemOBr3MFsJDYg" name="buffer" visibility="public" isUnique="false">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWR3fOEemKR73gi6jJqA" name="dryMatterOrMineralQuantification">
+    <generalization xmi:id="_s_SWSHfOEemKR73gi6jJqA" general="_s_SWinfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWSXfOEemKR73gi6jJqA" name="temperature" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWSnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWS3fOEemKR73gi6jJqA" name="time" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWTHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWTXfOEemKR73gi6jJqA" name="temperatureCycle" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVwHZbEemOBr3MFsJDYg" name="electrophoresisCondition" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_2bQVwXZbEemOBr3MFsJDYg">
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWTnfOEemKR73gi6jJqA" name="electrochemicalMeasurement">
+    <generalization xmi:id="_s_SWT3fOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWUHfOEemKR73gi6jJqA" name="electrophoresis">
+    <generalization xmi:id="_s_SWUXfOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWUnfOEemKR73gi6jJqA" name="elisa">
+    <generalization xmi:id="_s_SWU3fOEemKR73gi6jJqA" general="_s_SXMnfOEemKR73gi6jJqA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWVHfOEemKR73gi6jJqA" name="endPointAssay">
+    <generalization xmi:id="_s_SWVXfOEemKR73gi6jJqA" general="_s_SWWXfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWVnfOEemKR73gi6jJqA" name="unit" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWV3fOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWWHfOEemKR73gi6jJqA" name="measuredMetabolite" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWWXfOEemKR73gi6jJqA" name="enzymaticActivity">
+    <generalization xmi:id="_s_SWWnfOEemKR73gi6jJqA" general="_s_SXMnfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWW3fOEemKR73gi6jJqA" name="reagentBlankValue" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWXHfOEemKR73gi6jJqA" name="sampleBlankValue" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWXXfOEemKR73gi6jJqA" name="molarExtinctionCoefficient" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWXnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWX3fOEemKR73gi6jJqA" name="result" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWYHfOEemKR73gi6jJqA" name="fibers">
+    <generalization xmi:id="_s_SWYXfOEemKR73gi6jJqA" general="_s_SWinfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWYnfOEemKR73gi6jJqA" name="reagentLotNumber" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWY3fOEemKR73gi6jJqA" name="flowCytometry">
+    <generalization xmi:id="_s_SWZHfOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWZXfOEemKR73gi6jJqA" name="SSC" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWZnfOEemKR73gi6jJqA" name="FSC" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWZ3fOEemKR73gi6jJqA" name="particlesFilter" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWaHfOEemKR73gi6jJqA" name="labelling" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWaXfOEemKR73gi6jJqA" name="antibodyName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWanfOEemKR73gi6jJqA" name="resultCellCount" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWa3fOEemKR73gi6jJqA" name="gasChromatography">
+    <generalization xmi:id="_s_SWbHfOEemKR73gi6jJqA" general="_s_RwR3fOEemKR73gi6jJqA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWbXfOEemKR73gi6jJqA" name="gelElectrophoresis">
+    <generalization xmi:id="_s_SWbnfOEemKR73gi6jJqA" general="_s_SWUHfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWb3fOEemKR73gi6jJqA" name="buffer" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWcHfOEemKR73gi6jJqA" name="electrophoresisCondition" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_s_SWcXfOEemKR73gi6jJqA">
         <body>voltage and time</body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVwnZbEemOBr3MFsJDYg" name="gelType" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWcnfOEemKR73gi6jJqA" name="gelType" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVw3ZbEemOBr3MFsJDYg" name="ladderName" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWc3fOEemKR73gi6jJqA" name="ladderName" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVxHZbEemOBr3MFsJDYg" name="sampleLoadingAmount" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQVxXZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWdHfOEemKR73gi6jJqA" name="sampleLoadingAmount" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWdXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVxnZbEemOBr3MFsJDYg" name="sampleType" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWdnfOEemKR73gi6jJqA" name="sampleType" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQVx3ZbEemOBr3MFsJDYg" name="generalAnalysis">
-    <ownedComment xmi:id="_2bQVyHZbEemOBr3MFsJDYg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWd3fOEemKR73gi6jJqA" name="generalAnalysis">
+    <ownedComment xmi:id="_s_SWeHfOEemKR73gi6jJqA">
       <body>Cette classe correspond à la racine.
 L'ensemble des attributs décrits dans cette classe seront transmis aux autres classes</body>
     </ownedComment>
-    <ownedAttribute xmi:id="_2bQVyXZbEemOBr3MFsJDYg" name="date" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_2bQVynZbEemOBr3MFsJDYg">
+    <ownedAttribute xmi:id="_s_SWeXfOEemKR73gi6jJqA" name="date" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWenfOEemKR73gi6jJqA" source="Objing"/>
+      <ownedComment xmi:id="_s_SWe3fOEemKR73gi6jJqA">
         <body>Date de l'analyse</body>
       </ownedComment>
-      <ownedComment xmi:id="_2bQVy3ZbEemOBr3MFsJDYg">
+      <ownedComment xmi:id="_s_SWfHfOEemKR73gi6jJqA">
         <body>Non nul
 format obligaoire (YYYY/ MM/DD ???)</body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQVzHZbEemOBr3MFsJDYg" name="laboratoryOperatingMode" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_2bQVzXZbEemOBr3MFsJDYg">
+    <ownedAttribute xmi:id="_s_SWfXfOEemKR73gi6jJqA" name="laboratoryOperatingMode" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_s_SWfnfOEemKR73gi6jJqA">
         <body></body>
       </ownedComment>
-      <ownedComment xmi:id="_2bQVznZbEemOBr3MFsJDYg">
+      <ownedComment xmi:id="_s_SWf3fOEemKR73gi6jJqA">
         <body>Nom du mode opératoire ou titre ??
 MO-LAB-006 ou &quot;Dosage enzymatique du glucose par la méthode utilisant la glucose oxydase sur l’analyseur multiparamétrique Konélab...&quot;</body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8AHZbEemOBr3MFsJDYg" name="criticalApparatusCriticalSoftware" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_2bQ8AXZbEemOBr3MFsJDYg">
+    <ownedAttribute xmi:id="_s_SWgHfOEemKR73gi6jJqA" name="criticalApparatusCriticalSoftware" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_s_SWgXfOEemKR73gi6jJqA">
         <body>string
 peut-être une liste de plusieurs éléments</body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8AnZbEemOBr3MFsJDYg" name="criticalProduct" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_2bQ8A3ZbEemOBr3MFsJDYg">
+    <ownedAttribute xmi:id="_s_SWgnfOEemKR73gi6jJqA" name="criticalProduct" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_s_SWg3fOEemKR73gi6jJqA">
         <body>peut-être une liste de plusieurs éléments</body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8BHZbEemOBr3MFsJDYg" name="operator" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWhHfOEemKR73gi6jJqA" name="operator" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWhXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8BXZbEemOBr3MFsJDYg" name="sampleID" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_2bQ8BnZbEemOBr3MFsJDYg">
+    <ownedAttribute xmi:id="_s_SWhnfOEemKR73gi6jJqA" name="sampleID" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWh3fOEemKR73gi6jJqA" source="Objing"/>
+      <ownedComment xmi:id="_s_SWiHfOEemKR73gi6jJqA">
         <body>identifiant constitué d'un préfixe: nom du projet
 sous projet et n° d'échantillon incrémenté.</body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8B3ZbEemOBr3MFsJDYg" name="rawDataPathway" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWiXfOEemKR73gi6jJqA" name="rawDataPathway" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8CHZbEemOBr3MFsJDYg" name="gravimetry">
-    <generalization xmi:id="_2bQ8CXZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8CnZbEemOBr3MFsJDYg" name="result" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8C3ZbEemOBr3MFsJDYg" source="Objing"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWinfOEemKR73gi6jJqA" name="gravimetry">
+    <generalization xmi:id="_s_SWi3fOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWjHfOEemKR73gi6jJqA" name="result" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWjXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8DHZbEemOBr3MFsJDYg" name="samplePortion" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8DXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8DnZbEemOBr3MFsJDYg" name="histochemistry">
-    <generalization xmi:id="_2bQ8D3ZbEemOBr3MFsJDYg" general="_2bQ8GnZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8EHZbEemOBr3MFsJDYg" name="dye" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8EXZbEemOBr3MFsJDYg" name="dyeReference" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8EnZbEemOBr3MFsJDYg" name="resultTotalArea" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8E3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8FHZbEemOBr3MFsJDYg" name="secretoryCellArea" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8FXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8FnZbEemOBr3MFsJDYg" name="adiposeCellArea" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8F3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8GHZbEemOBr3MFsJDYg" name="channelArea" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8GXZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWjnfOEemKR73gi6jJqA" name="samplePortion" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWj3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8GnZbEemOBr3MFsJDYg" name="histology">
-    <ownedAttribute xmi:id="_2bQ8G3ZbEemOBr3MFsJDYg" name="embedding" visibility="public" isUnique="false">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWkHfOEemKR73gi6jJqA" name="histochemistry">
+    <generalization xmi:id="_s_SWkXfOEemKR73gi6jJqA" general="_s_SWnHfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWknfOEemKR73gi6jJqA" name="dye" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8HHZbEemOBr3MFsJDYg" name="fixation" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWk3fOEemKR73gi6jJqA" name="dyeReference" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8HXZbEemOBr3MFsJDYg" name="sliceSize" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8HnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWlHfOEemKR73gi6jJqA" name="resultTotalArea" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWlXfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWlnfOEemKR73gi6jJqA" name="secretoryCellArea" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWl3fOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWmHfOEemKR73gi6jJqA" name="adiposeCellArea" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWmXfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWmnfOEemKR73gi6jJqA" name="channelArea" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWm3fOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWnHfOEemKR73gi6jJqA" name="histology">
+    <generalization xmi:id="_s_SWnXfOEemKR73gi6jJqA" general="_s_SW1HfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWnnfOEemKR73gi6jJqA" name="embedding" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWn3fOEemKR73gi6jJqA" name="fixation" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SWoHfOEemKR73gi6jJqA" name="sliceSize" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWoXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8H3ZbEemOBr3MFsJDYg" name="magnification" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWonfOEemKR73gi6jJqA" name="magnification" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8IHZbEemOBr3MFsJDYg" name="pictureResolution" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8IXZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWo3fOEemKR73gi6jJqA" name="pictureResolution" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWpHfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8InZbEemOBr3MFsJDYg" name="numberMeasuringField" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWpXfOEemKR73gi6jJqA" name="numberMeasuringField" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8I3ZbEemOBr3MFsJDYg" name="pictureNumber" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWpnfOEemKR73gi6jJqA" name="pictureNumber" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8JHZbEemOBr3MFsJDYg" name="organelleIdentification" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SWp3fOEemKR73gi6jJqA" name="organelleIdentification" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8JXZbEemOBr3MFsJDYg" name="hplc">
-    <generalization xmi:id="_2bQ8JnZbEemOBr3MFsJDYg" general="_2bQVeXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8J3ZbEemOBr3MFsJDYg" name="OH_pro" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8KHZbEemOBr3MFsJDYg" source="Objing"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SWqHfOEemKR73gi6jJqA" name="hplc">
+    <generalization xmi:id="_s_SWqXfOEemKR73gi6jJqA" general="_s_RwR3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SWqnfOEemKR73gi6jJqA" name="OH_pro" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWq3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8KXZbEemOBr3MFsJDYg" name="Acys" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8KnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWrHfOEemKR73gi6jJqA" name="Acys" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWrXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8K3ZbEemOBr3MFsJDYg" name="Ala" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8LHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWrnfOEemKR73gi6jJqA" name="Ala" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWr3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8LXZbEemOBr3MFsJDYg" name="Arg" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8LnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWsHfOEemKR73gi6jJqA" name="Arg" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWsXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8L3ZbEemOBr3MFsJDYg" name="Asp" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8MHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWsnfOEemKR73gi6jJqA" name="Asp" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWs3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8MXZbEemOBr3MFsJDYg" name="Cys" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8MnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWtHfOEemKR73gi6jJqA" name="Cys" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWtXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8M3ZbEemOBr3MFsJDYg" name="Glu" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8NHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWtnfOEemKR73gi6jJqA" name="Glu" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWt3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8NXZbEemOBr3MFsJDYg" name="Gly" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8NnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWuHfOEemKR73gi6jJqA" name="Gly" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWuXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8N3ZbEemOBr3MFsJDYg" name="His" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8OHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWunfOEemKR73gi6jJqA" name="His" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWu3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8OXZbEemOBr3MFsJDYg" name="Ile" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8OnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWvHfOEemKR73gi6jJqA" name="Ile" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWvXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8O3ZbEemOBr3MFsJDYg" name="Leu" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8PHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWvnfOEemKR73gi6jJqA" name="Leu" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWv3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8PXZbEemOBr3MFsJDYg" name="Lys" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8PnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWwHfOEemKR73gi6jJqA" name="Lys" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWwXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8P3ZbEemOBr3MFsJDYg" name="Meso" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8QHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWwnfOEemKR73gi6jJqA" name="Meso" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWw3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8QXZbEemOBr3MFsJDYg" name="Met" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8QnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWxHfOEemKR73gi6jJqA" name="Met" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWxXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8Q3ZbEemOBr3MFsJDYg" name="Nh3" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8RHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWxnfOEemKR73gi6jJqA" name="Nh3" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWx3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8RXZbEemOBr3MFsJDYg" name="Phe" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8RnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWyHfOEemKR73gi6jJqA" name="Phe" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWyXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8R3ZbEemOBr3MFsJDYg" name="Pro" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8SHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWynfOEemKR73gi6jJqA" name="Pro" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWy3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8SXZbEemOBr3MFsJDYg" name="Ser" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8SnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWzHfOEemKR73gi6jJqA" name="Ser" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWzXfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8S3ZbEemOBr3MFsJDYg" name="Thr" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8THZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SWznfOEemKR73gi6jJqA" name="Thr" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SWz3fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8TXZbEemOBr3MFsJDYg" name="Tyr" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8TnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW0HfOEemKR73gi6jJqA" name="Tyr" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW0XfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8T3ZbEemOBr3MFsJDYg" name="Val" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8UHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW0nfOEemKR73gi6jJqA" name="Val" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW03fOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8UXZbEemOBr3MFsJDYg" name="imaging">
-    <generalization xmi:id="_2bQ8UnZbEemOBr3MFsJDYg" general="_2bQVaXZbEemOBr3MFsJDYg"/>
-    <generalization xmi:id="_2bQ8U3ZbEemOBr3MFsJDYg" general="_2bQ8GnZbEemOBr3MFsJDYg"/>
-    <generalization xmi:id="_2bQ8VHZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SW1HfOEemKR73gi6jJqA" name="imaging">
+    <generalization xmi:id="_s_SW1XfOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8VXZbEemOBr3MFsJDYg" name="immunohistochemistry">
-    <generalization xmi:id="_2bQ8VnZbEemOBr3MFsJDYg" general="_2bQ8GnZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8V3ZbEemOBr3MFsJDYg" name="firstAntibodyDilutionFactor" visibility="public" isUnique="false">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SW1nfOEemKR73gi6jJqA" name="immunohistochemistry">
+    <generalization xmi:id="_s_SW13fOEemKR73gi6jJqA" general="_s_SWnHfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SW2HfOEemKR73gi6jJqA" name="firstAntibodyDilutionFactor" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8WHZbEemOBr3MFsJDYg" name="firstAntibodyName" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SW2XfOEemKR73gi6jJqA" name="firstAntibodyName" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8WXZbEemOBr3MFsJDYg" name="firstAntibodyReference" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SW2nfOEemKR73gi6jJqA" name="firstAntibodyReference" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8WnZbEemOBr3MFsJDYg" name="secondAntibodyName" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8W3ZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW23fOEemKR73gi6jJqA" name="secondAntibodyName" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW3HfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8XHZbEemOBr3MFsJDYg" name="secondAntibodyDilutionFactor" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8XXZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW3XfOEemKR73gi6jJqA" name="secondAntibodyDilutionFactor" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW3nfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8XnZbEemOBr3MFsJDYg" name="secondAntibodyReference" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8X3ZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW33fOEemKR73gi6jJqA" name="secondAntibodyReference" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW4HfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8YHZbEemOBr3MFsJDYg" name="exposureTime" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SW4XfOEemKR73gi6jJqA" name="exposureTime" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8YXZbEemOBr3MFsJDYg" name="particleDiameterRange" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SW4nfOEemKR73gi6jJqA" name="particleDiameterRange" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8YnZbEemOBr3MFsJDYg" name="thirdAntibodyReference" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8Y3ZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW43fOEemKR73gi6jJqA" name="thirdAntibodyReference" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW5HfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8ZHZbEemOBr3MFsJDYg" name="thirdAntibodyName" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8ZXZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW5XfOEemKR73gi6jJqA" name="thirdAntibodyName" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW5nfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8ZnZbEemOBr3MFsJDYg" name="thirdAntibodyDilutionFactor" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8Z3ZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW53fOEemKR73gi6jJqA" name="thirdAntibodyDilutionFactor" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW6HfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8aHZbEemOBr3MFsJDYg" name="fourthAntibodyDilutionFactor" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8aXZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW6XfOEemKR73gi6jJqA" name="fourthAntibodyDilutionFactor" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW6nfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8anZbEemOBr3MFsJDYg" name="fourthAntibodyName" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8a3ZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW63fOEemKR73gi6jJqA" name="fourthAntibodyName" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW7HfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8bHZbEemOBr3MFsJDYg" name="fourthAntibodyReference" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8bXZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW7XfOEemKR73gi6jJqA" name="fourthAntibodyReference" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW7nfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8bnZbEemOBr3MFsJDYg" name="resultTotalNuclearCellCount" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SW73fOEemKR73gi6jJqA" name="resultTotalNuclearCellCount" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8b3ZbEemOBr3MFsJDYg" name="resultLabelledNuclearCellCount" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8cHZbEemOBr3MFsJDYg" name="lipid">
-    <generalization xmi:id="_2bQ8cXZbEemOBr3MFsJDYg" general="_2bQ8CHZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8cnZbEemOBr3MFsJDYg" name="solvent" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8c3ZbEemOBr3MFsJDYg" name="temperatureCycle" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8dHZbEemOBr3MFsJDYg" name="bucketType" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8dXZbEemOBr3MFsJDYg" name="dryingTemperature" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8dnZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8d3ZbEemOBr3MFsJDYg" name="ndf">
-    <generalization xmi:id="_2bQ8eHZbEemOBr3MFsJDYg" general="_2bQVsHZbEemOBr3MFsJDYg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8eXZbEemOBr3MFsJDYg" name="ndfAdf">
-    <generalization xmi:id="_2bQ8enZbEemOBr3MFsJDYg" general="_2bQVsHZbEemOBr3MFsJDYg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8e3ZbEemOBr3MFsJDYg" name="nitrogen">
-    <generalization xmi:id="_2bQ8fHZbEemOBr3MFsJDYg" general="_2bQ8CHZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8fXZbEemOBr3MFsJDYg" name="catalyst" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8fnZbEemOBr3MFsJDYg" name="northernBlot">
-    <generalization xmi:id="_2bQ8f3ZbEemOBr3MFsJDYg" general="_2bQVvXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8gHZbEemOBr3MFsJDYg" name="transferType" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8gXZbEemOBr3MFsJDYg" name="transferCondition" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8gnZbEemOBr3MFsJDYg" name="buffer" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8g3ZbEemOBr3MFsJDYg" name="membrane" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8hHZbEemOBr3MFsJDYg" name="probeName" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8hXZbEemOBr3MFsJDYg" name="labelType" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8hnZbEemOBr3MFsJDYg" name="imageAcquisitionParameters" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8h3ZbEemOBr3MFsJDYg" name="molecularWeight" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8iHZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8iXZbEemOBr3MFsJDYg" name="resultQuantity" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8inZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8i3ZbEemOBr3MFsJDYg" name="osmolarity">
-    <generalization xmi:id="_2bQ8jHZbEemOBr3MFsJDYg" general="_2bQVnnZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8jXZbEemOBr3MFsJDYg" name="result" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8jnZbEemOBr3MFsJDYg" name="pH">
-    <generalization xmi:id="_2bQ8j3ZbEemOBr3MFsJDYg" general="_2bQVnnZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8kHZbEemOBr3MFsJDYg" name="samplePortion" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8kXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8knZbEemOBr3MFsJDYg" name="waitingTime" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8k3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8lHZbEemOBr3MFsJDYg" name="result" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8lXZbEemOBr3MFsJDYg" name="pcr">
-    <generalization xmi:id="_2bQ8lnZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8l3ZbEemOBr3MFsJDYg" name="targetSequenceName" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8mHZbEemOBr3MFsJDYg" name="forwardPrimerName" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8mXZbEemOBr3MFsJDYg" name="forwardPrimerSequence" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8mnZbEemOBr3MFsJDYg" name="reversePrimerName" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8m3ZbEemOBr3MFsJDYg" name="reversePrimerSequence" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8nHZbEemOBr3MFsJDYg" name="pcrProgram" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8nXZbEemOBr3MFsJDYg" name="sampleQuantity" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8nnZbEemOBr3MFsJDYg" name="ampliconSize" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8n3ZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW8HfOEemKR73gi6jJqA" name="resultLabelledNuclearCellCount" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8oHZbEemOBr3MFsJDYg" name="progressiveCurveExperiment">
-    <generalization xmi:id="_2bQ8oXZbEemOBr3MFsJDYg" general="_2bQVqXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8onZbEemOBr3MFsJDYg" name="measuredEnzyme" visibility="public" isUnique="false">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SW8XfOEemKR73gi6jJqA" name="lipid">
+    <generalization xmi:id="_s_SW8nfOEemKR73gi6jJqA" general="_s_SWinfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SW83fOEemKR73gi6jJqA" name="solvent" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8o3ZbEemOBr3MFsJDYg" name="unit" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8pHZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SW9HfOEemKR73gi6jJqA" name="temperatureCycle" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SW9XfOEemKR73gi6jJqA" name="bucketType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SW9nfOEemKR73gi6jJqA" name="dryingTemperature" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SW93fOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SW-HfOEemKR73gi6jJqA" name="ndf">
+    <generalization xmi:id="_s_SW-XfOEemKR73gi6jJqA" general="_s_SWYHfOEemKR73gi6jJqA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SW-nfOEemKR73gi6jJqA" name="ndfAdf">
+    <generalization xmi:id="_s_SW-3fOEemKR73gi6jJqA" general="_s_SWYHfOEemKR73gi6jJqA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SW_HfOEemKR73gi6jJqA" name="nitrogen">
+    <generalization xmi:id="_s_SW_XfOEemKR73gi6jJqA" general="_s_SWinfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SW_nfOEemKR73gi6jJqA" name="catalyst" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8pXZbEemOBr3MFsJDYg" name="qRT_PCR">
-    <generalization xmi:id="_2bQ8pnZbEemOBr3MFsJDYg" general="_2bQ8lXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8p3ZbEemOBr3MFsJDYg" name="technologyType" visibility="public" isUnique="false">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SW_3fOEemKR73gi6jJqA" name="northernBlot">
+    <generalization xmi:id="_s_SXAHfOEemKR73gi6jJqA" general="_s_SWbXfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SXAXfOEemKR73gi6jJqA" name="transferType" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8qHZbEemOBr3MFsJDYg" name="resultCt" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXAnfOEemKR73gi6jJqA" name="transferCondition" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8qXZbEemOBr3MFsJDYg" name="dye" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8qnZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SXA3fOEemKR73gi6jJqA" name="buffer" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8q3ZbEemOBr3MFsJDYg" name="plateNumber" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXBHfOEemKR73gi6jJqA" name="membrane" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8rHZbEemOBr3MFsJDYg" name="positionInPlate" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXBXfOEemKR73gi6jJqA" name="probeName" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXBnfOEemKR73gi6jJqA" name="labelType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXB3fOEemKR73gi6jJqA" name="imageAcquisitionParameters" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXCHfOEemKR73gi6jJqA" name="molecularWeight" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXCXfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXCnfOEemKR73gi6jJqA" name="resultQuantity" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXC3fOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8rXZbEemOBr3MFsJDYg" name="rawCellulose">
-    <generalization xmi:id="_2bQ8rnZbEemOBr3MFsJDYg" general="_2bQVsHZbEemOBr3MFsJDYg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SXDHfOEemKR73gi6jJqA" name="osmolarity">
+    <generalization xmi:id="_s_SXDXfOEemKR73gi6jJqA" general="_s_SWTnfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SXDnfOEemKR73gi6jJqA" name="result" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8r3ZbEemOBr3MFsJDYg" name="solubleInsolubleFiber">
-    <generalization xmi:id="_2bQ8sHZbEemOBr3MFsJDYg" general="_2bQVsHZbEemOBr3MFsJDYg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8sXZbEemOBr3MFsJDYg" name="spectrophotometry">
-    <generalization xmi:id="_2bQ8snZbEemOBr3MFsJDYg" general="_2bQVx3ZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8s3ZbEemOBr3MFsJDYg" name="sampledDilution" visibility="public" isUnique="false">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SXD3fOEemKR73gi6jJqA" name="pH">
+    <generalization xmi:id="_s_SXEHfOEemKR73gi6jJqA" general="_s_SWTnfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SXEXfOEemKR73gi6jJqA" name="samplePortion" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXEnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXE3fOEemKR73gi6jJqA" name="waitingTime" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXFHfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8tHZbEemOBr3MFsJDYg" name="samplePortion" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8tXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8tnZbEemOBr3MFsJDYg" name="wavelength" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8t3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8uHZbEemOBr3MFsJDYg" name="linearityRange" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8uXZbEemOBr3MFsJDYg" name="resultOpticalDensity" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8unZbEemOBr3MFsJDYg" name="starchPolarimetric">
-    <generalization xmi:id="_2bQ8u3ZbEemOBr3MFsJDYg" general="_2bQ8CHZbEemOBr3MFsJDYg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ8vHZbEemOBr3MFsJDYg" name="uplc">
-    <generalization xmi:id="_2bQ8vXZbEemOBr3MFsJDYg" general="_2bQVeXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ8vnZbEemOBr3MFsJDYg" name="oneMH" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8v3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8wHZbEemOBr3MFsJDYg" name="threeMH" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8wXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8wnZbEemOBr3MFsJDYg" name="AABA" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8w3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8xHZbEemOBr3MFsJDYg" name="AADA" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8xXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8xnZbEemOBr3MFsJDYg" name="Ala" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8x3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8yHZbEemOBr3MFsJDYg" name="Alle" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8yXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8ynZbEemOBr3MFsJDYg" name="Ans" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8y3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8zHZbEemOBr3MFsJDYg" name="Arg" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8zXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8znZbEemOBr3MFsJDYg" name="Asn" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8z3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ80HZbEemOBr3MFsJDYg" name="Asp" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ80XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ80nZbEemOBr3MFsJDYg" name="B_Ala" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ803ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ81HZbEemOBr3MFsJDYg" name="BAIb" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ81XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ81nZbEemOBr3MFsJDYg" name="Carn" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ813ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ82HZbEemOBr3MFsJDYg" name="Cit" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ82XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ82nZbEemOBr3MFsJDYg" name="Cys" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ823ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ83HZbEemOBr3MFsJDYg" name="Cyst" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ83XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ83nZbEemOBr3MFsJDYg" name="EA" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ833ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ84HZbEemOBr3MFsJDYg" name="GABA" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ84XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ84nZbEemOBr3MFsJDYg" name="Gln" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ843ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ85HZbEemOBr3MFsJDYg" name="Glu" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ85XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ85nZbEemOBr3MFsJDYg" name="Gly" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ853ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ86HZbEemOBr3MFsJDYg" name="His" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ86XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ86nZbEemOBr3MFsJDYg" name="HyPro" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ863ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ87HZbEemOBr3MFsJDYg" name="Hyl2" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ87XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ87nZbEemOBr3MFsJDYg" name="Ile" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ873ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ88HZbEemOBr3MFsJDYg" name="Leu" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ88XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ88nZbEemOBr3MFsJDYg" name="Lys" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ883ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ89HZbEemOBr3MFsJDYg" name="Met" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ89XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ89nZbEemOBr3MFsJDYg" name="NH3" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ893ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8-HZbEemOBr3MFsJDYg" name="Orn" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8-XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8-nZbEemOBr3MFsJDYg" name="PEA" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8-3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8_HZbEemOBr3MFsJDYg" name="PSer" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8_XZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ8_nZbEemOBr3MFsJDYg" name="Phe" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ8_3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9AHZbEemOBr3MFsJDYg" name="Pro" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ9AXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9AnZbEemOBr3MFsJDYg" name="Sar" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ9A3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9BHZbEemOBr3MFsJDYg" name="Ser" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ9BXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9BnZbEemOBr3MFsJDYg" name="Tau" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ9B3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9CHZbEemOBr3MFsJDYg" name="Thr" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ9CXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9CnZbEemOBr3MFsJDYg" name="Trp" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ9C3ZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9DHZbEemOBr3MFsJDYg" name="Tyr" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ9DXZbEemOBr3MFsJDYg" source="Objing"/>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9DnZbEemOBr3MFsJDYg" name="Val" visibility="public" isUnique="false">
-      <eAnnotations xmi:id="_2bQ9D3ZbEemOBr3MFsJDYg" source="Objing"/>
+    <ownedAttribute xmi:id="_s_SXFXfOEemKR73gi6jJqA" name="result" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ9EHZbEemOBr3MFsJDYg" name="westernBlot">
-    <generalization xmi:id="_2bQ9EXZbEemOBr3MFsJDYg" general="_2bQVvXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ9EnZbEemOBr3MFsJDYg" name="transferType" visibility="public" isUnique="false">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SXFnfOEemKR73gi6jJqA" name="pcr">
+    <generalization xmi:id="_s_SXF3fOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SXGHfOEemKR73gi6jJqA" name="targetSequenceName" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9E3ZbEemOBr3MFsJDYg" name="membrane" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXGXfOEemKR73gi6jJqA" name="forwardPrimerName" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9FHZbEemOBr3MFsJDYg" name="buffer" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXGnfOEemKR73gi6jJqA" name="forwardPrimerSequence" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9FXZbEemOBr3MFsJDYg" name="transferCondition" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXG3fOEemKR73gi6jJqA" name="reversePrimerName" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9FnZbEemOBr3MFsJDYg" name="labelType" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXHHfOEemKR73gi6jJqA" name="reversePrimerSequence" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9F3ZbEemOBr3MFsJDYg" name="imageAcquisitionParameters" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXHXfOEemKR73gi6jJqA" name="pcrProgram" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9GHZbEemOBr3MFsJDYg" name="firstAntibodyName" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXHnfOEemKR73gi6jJqA" name="sampleQuantity" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9GXZbEemOBr3MFsJDYg" name="firstAntibodyReference" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9GnZbEemOBr3MFsJDYg" name="firstAntibodyDilutionFactor" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9G3ZbEemOBr3MFsJDYg" name="secondAntibodyName" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9HHZbEemOBr3MFsJDYg" name="secondAntibodyReference" visibility="public" isUnique="false">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9HXZbEemOBr3MFsJDYg" name="secondAntibodyDilutionFactor" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXH3fOEemKR73gi6jJqA" name="ampliconSize" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXIHfOEemKR73gi6jJqA" source="Objing"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_2bQ9HnZbEemOBr3MFsJDYg" name="zymography">
-    <generalization xmi:id="_2bQ9H3ZbEemOBr3MFsJDYg" general="_2bQVvXZbEemOBr3MFsJDYg"/>
-    <ownedAttribute xmi:id="_2bQ9IHZbEemOBr3MFsJDYg" name="substrateType" visibility="public" isUnique="false">
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SXIXfOEemKR73gi6jJqA" name="progressiveCurveExperiment">
+    <generalization xmi:id="_s_SXInfOEemKR73gi6jJqA" general="_s_SWWXfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SXI3fOEemKR73gi6jJqA" name="measuredEnzyme" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_2bQ9IXZbEemOBr3MFsJDYg" name="substrateMatrixType" visibility="public" isUnique="false">
+    <ownedAttribute xmi:id="_s_SXJHfOEemKR73gi6jJqA" name="unit" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXJXfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SXJnfOEemKR73gi6jJqA" name="qRT_PCR">
+    <generalization xmi:id="_s_SXJ3fOEemKR73gi6jJqA" general="_s_SXFnfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SXKHfOEemKR73gi6jJqA" name="technologyType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXKXfOEemKR73gi6jJqA" name="resultCt" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXKnfOEemKR73gi6jJqA" name="dye" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXK3fOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXLHfOEemKR73gi6jJqA" name="plateNumber" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXLXfOEemKR73gi6jJqA" name="positionInPlate" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SXLnfOEemKR73gi6jJqA" name="rawCellulose">
+    <generalization xmi:id="_s_SXL3fOEemKR73gi6jJqA" general="_s_SWYHfOEemKR73gi6jJqA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SXMHfOEemKR73gi6jJqA" name="solubleInsolubleFiber">
+    <generalization xmi:id="_s_SXMXfOEemKR73gi6jJqA" general="_s_SWYHfOEemKR73gi6jJqA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SXMnfOEemKR73gi6jJqA" name="spectrophotometry">
+    <generalization xmi:id="_s_SXM3fOEemKR73gi6jJqA" general="_s_SWd3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SXNHfOEemKR73gi6jJqA" name="sampledDilution" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXNXfOEemKR73gi6jJqA" name="samplePortion" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXNnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXN3fOEemKR73gi6jJqA" name="wavelength" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXOHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXOXfOEemKR73gi6jJqA" name="linearityRange" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXOnfOEemKR73gi6jJqA" name="resultOpticalDensity" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SXO3fOEemKR73gi6jJqA" name="starchPolarimetric">
+    <generalization xmi:id="_s_SXPHfOEemKR73gi6jJqA" general="_s_SWinfOEemKR73gi6jJqA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_SXPXfOEemKR73gi6jJqA" name="uplc">
+    <generalization xmi:id="_s_SXPnfOEemKR73gi6jJqA" general="_s_RwR3fOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_SXP3fOEemKR73gi6jJqA" name="oneMH" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXQHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXQXfOEemKR73gi6jJqA" name="threeMH" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXQnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXQ3fOEemKR73gi6jJqA" name="AABA" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXRHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXRXfOEemKR73gi6jJqA" name="AADA" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXRnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXR3fOEemKR73gi6jJqA" name="Ala" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXSHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXSXfOEemKR73gi6jJqA" name="Alle" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXSnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXS3fOEemKR73gi6jJqA" name="Ans" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXTHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXTXfOEemKR73gi6jJqA" name="Arg" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXTnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXT3fOEemKR73gi6jJqA" name="Asn" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXUHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXUXfOEemKR73gi6jJqA" name="Asp" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXUnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXU3fOEemKR73gi6jJqA" name="B_Ala" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXVHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXVXfOEemKR73gi6jJqA" name="BAIb" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXVnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXV3fOEemKR73gi6jJqA" name="Carn" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXWHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXWXfOEemKR73gi6jJqA" name="Cit" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXWnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXW3fOEemKR73gi6jJqA" name="Cys" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXXHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXXXfOEemKR73gi6jJqA" name="Cyst" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXXnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXX3fOEemKR73gi6jJqA" name="EA" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXYHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXYXfOEemKR73gi6jJqA" name="GABA" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXYnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXY3fOEemKR73gi6jJqA" name="Gln" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXZHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXZXfOEemKR73gi6jJqA" name="Glu" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXZnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXZ3fOEemKR73gi6jJqA" name="Gly" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXaHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXaXfOEemKR73gi6jJqA" name="His" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXanfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXa3fOEemKR73gi6jJqA" name="HyPro" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXbHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXbXfOEemKR73gi6jJqA" name="Hyl2" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXbnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXb3fOEemKR73gi6jJqA" name="Ile" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXcHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXcXfOEemKR73gi6jJqA" name="Leu" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXcnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXc3fOEemKR73gi6jJqA" name="Lys" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXdHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXdXfOEemKR73gi6jJqA" name="Met" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXdnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXd3fOEemKR73gi6jJqA" name="NH3" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_SXeHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_SXeXfOEemKR73gi6jJqA" name="Orn" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9QHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9QXfOEemKR73gi6jJqA" name="PEA" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9QnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9Q3fOEemKR73gi6jJqA" name="PSer" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9RHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9RXfOEemKR73gi6jJqA" name="Phe" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9RnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9R3fOEemKR73gi6jJqA" name="Pro" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9SHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9SXfOEemKR73gi6jJqA" name="Sar" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9SnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9S3fOEemKR73gi6jJqA" name="Ser" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9THfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9TXfOEemKR73gi6jJqA" name="Tau" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9TnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9T3fOEemKR73gi6jJqA" name="Thr" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9UHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9UXfOEemKR73gi6jJqA" name="Trp" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9UnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9U3fOEemKR73gi6jJqA" name="Tyr" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9VHfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9VXfOEemKR73gi6jJqA" name="Val" visibility="public" isUnique="false">
+      <eAnnotations xmi:id="_s_S9VnfOEemKR73gi6jJqA" source="Objing"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_S9V3fOEemKR73gi6jJqA" name="westernBlot">
+    <generalization xmi:id="_s_S9WHfOEemKR73gi6jJqA" general="_s_SWbXfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_S9WXfOEemKR73gi6jJqA" name="transferType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9WnfOEemKR73gi6jJqA" name="membrane" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9W3fOEemKR73gi6jJqA" name="buffer" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9XHfOEemKR73gi6jJqA" name="transferCondition" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9XXfOEemKR73gi6jJqA" name="labelType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9XnfOEemKR73gi6jJqA" name="imageAcquisitionParameters" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9X3fOEemKR73gi6jJqA" name="firstAntibodyName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9YHfOEemKR73gi6jJqA" name="firstAntibodyReference" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9YXfOEemKR73gi6jJqA" name="firstAntibodyDilutionFactor" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9YnfOEemKR73gi6jJqA" name="secondAntibodyName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9Y3fOEemKR73gi6jJqA" name="secondAntibodyReference" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9ZHfOEemKR73gi6jJqA" name="secondAntibodyDilutionFactor" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_s_S9ZXfOEemKR73gi6jJqA" name="zymography">
+    <generalization xmi:id="_s_S9ZnfOEemKR73gi6jJqA" general="_s_SWbXfOEemKR73gi6jJqA"/>
+    <ownedAttribute xmi:id="_s_S9Z3fOEemKR73gi6jJqA" name="substrateType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_s_S9aHfOEemKR73gi6jJqA" name="substrateMatrixType" visibility="public" isUnique="false">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>

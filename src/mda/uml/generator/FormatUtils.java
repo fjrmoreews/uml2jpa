@@ -54,9 +54,7 @@ min>0
 			 
 			s= "@CustomUnit(value=\""+unit+"\" )";
 		}
-		if(vv.contains("xref")){
-			s=v;
-		}
+
 		
 		if(vv.contains(">") || vv.contains("min")){		
 			s=extractAfterVal(vv, ">");
@@ -83,6 +81,9 @@ min>0
 			System.out.println("sz.valid=true");
 			}
 			return null;
+		}
+		if(vv.contains("xref") || vv.contains("ordered")){
+			s="@"+v;
 		}
 		if(s==null){
 			s="//@"+v;

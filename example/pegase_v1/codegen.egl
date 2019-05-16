@@ -13,7 +13,7 @@ import thewebsemantic.binding.RdfBean;
 import javax.management.DescriptorKey;
 import uml2rdf.utils.*;
 [%var fut = futils;%]
- //[%=zz%] [%=tt%] [%=futils.testformat("A")%]
+  
 [%var allAttributes = aClass.attributes;%]
 [%
     var parentSet =aClass.generalization.general.name; 
@@ -122,8 +122,8 @@ public class [%=aClass.name.firstToUpperCase()%] [%=extendsClass%] {
       } %]
       
      */
-public [%=self.correctPrimType()%] get[%=self.name.toLowerCase().firstToUpperCase()%]() {
-	return this.[%=self.name.toLowerCase()%];
+public [%=self.correctPrimType()%] get[%=self.name.firstToUpperCase()%]() {
+	return this.[%=self.name.firstToLowerCase()%];
 }
   [% } %]
   
@@ -134,8 +134,8 @@ public [%=self.correctPrimType()%] get[%=self.name.toLowerCase().firstToUpperCas
     /**
      * Sets the value of [%=self.name%]
      */
-public void set[%=self.name.toLowerCase().firstToUpperCase()%]([%=self.correctPrimType()%] [%=self.name.toLowerCase()%]) {
-	this.[%=self.name.toLowerCase()%] = [%=self.name.toLowerCase()%];
+public void set[%=self.name.firstToUpperCase()%]([%=self.correctPrimType()%] [%=self.name.firstToLowerCase()%]) {
+	this.[%=self.name.firstToLowerCase()%] = [%=self.name.firstToLowerCase()%];
 }
    [% }
 %]
@@ -154,7 +154,7 @@ public void set[%=self.name.toLowerCase().firstToUpperCase()%]([%=self.correctPr
       [%} %]
       [%=futils.anyAnnotSplitList(self.getRedefinedProperties())%]
       
-      [%=self.visibility%] [%=self.correctPrimType()%] [%=self.name.toLowerCase()%];
+      [%=self.visibility%] [%=self.correctPrimType()%] [%=self.name.firstToLowerCase()%];
    [% }
 %]
 

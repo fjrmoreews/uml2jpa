@@ -142,6 +142,8 @@ public class UML2JPAGenerator {
 	module.getContext().getFrameStack().put(
 			Variable.createReadOnlyVariable(
 			"testtool", test()));
+	
+	
 	module.getContext().getFrameStack().put(
 			Variable.createReadOnlyVariable(
 					"test1", true));
