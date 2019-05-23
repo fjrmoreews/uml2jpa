@@ -146,6 +146,7 @@ public void set[%=self.name.firstToUpperCase()%]([%=self.correctPrimType()%] [%=
   operation Feature declare(futils) { %]
     /**
      * declaration [%=self.name%]
+   
      */ 
    
       [%for(prop in self.getRedefinedProperties()){%]
@@ -153,7 +154,7 @@ public void set[%=self.name.firstToUpperCase()%]([%=self.correctPrimType()%] [%=
        /*	   @[%=prop.name%] */ 
       [%} %]
       [%=futils.anyAnnotSplitList(self.getRedefinedProperties())%]
-      
+      [%=futils.description(self)%]
       [%=self.visibility%] [%=self.correctPrimType()%] [%=self.name.firstToLowerCase()%];
    [% }
 %]

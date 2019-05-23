@@ -3,8 +3,11 @@ package mda.uml.generator;
 import java.util.List;
 
 import javax.validation.constraints.Size;
+
+import org.eclipse.uml2.uml.Comment;
 import org.eclipse.uml2.uml.internal.impl.PropertyImpl;
 import javax.measure.*;
+
 
 public class FormatUtils {
 /*
@@ -40,7 +43,76 @@ min>0
 	//	 System.out.println(v);
 				
 	}
-	 
+	
+	//
+	//
+	/*
+    <ownedAttribute xmi:id="_s_SWeXfOEemKR73gi6jJqA" name="date" visibility="public" isUnique="false">
+     <eAnnotations xmi:id="_s_SWenfOEemKR73gi6jJqA" source="Objing"/>
+     <ownedComment xmi:id="_s_SWe3fOEemKR73gi6jJqA">
+       <body>Date de l'analyse</body>
+     </ownedComment>
+   */
+	
+	public static String description(PropertyImpl p){
+		//
+		String desc="";
+		String enu="";
+		String sep=",";
+		String att="";
+		int i=0;
+		for(Comment c:p.getOwnedComments()){
+			String b=c.getBody().trim();
+			if(b!=null && b.length()>0){
+				String bb=b.replaceAll("\\s", "");
+				bb=bb.toLowerCase().trim();
+				
+				if(bb.contains("desc:")){
+					desc+=b.replaceAll("desc:", "");	
+				}
+
+				if(bb.contains("enum:")){
+					enu+=b.replaceAll("enum:", "");	
+				}
+				
+			}
+		}
+	
+		
+		if(!desc.equals("")){
+			String v = desc.replaceAll("\\n", ";");
+			desc=v.replaceAll("\"", "'");
+			String attV="description=\""+desc+"\"";
+			if(i>0){
+				att=att+sep+attV;}
+			else{
+				att=att+attV;
+			}
+			i++;
+		}
+		if(!enu.equals("")){
+			String v = enu.replaceAll("\\n", ";");
+			enu=v.replaceAll("\"", "'");
+			String attV="enumerate=\""+enu+"\"";
+			if(i>0){
+				att=att+sep+attV;}
+			else{
+				att=att+attV;
+			}
+			i++;
+		}
+		if(!att.equals("")){
+			return "@Info("+att+")";	
+		}else{
+			return "";
+		}
+		
+	}
+	public static String describe(Object o){
+	
+		return o.getClass().getName();
+	}
+	
 	public static String anyAnnot(String v, DataSize sz){
 		
 		String s=null;
